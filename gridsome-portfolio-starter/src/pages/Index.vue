@@ -11,7 +11,7 @@
     </div> <!-- end hero -->
 
     <div class="container-inner mx-auto">
-      <p class="text-lg sm:text-xl mb-16">Senior software engineer with over 5 years experience in the industry and a first class Masters in Physics from Durham University, currently working for Omni Digital, a software agency in Bristol. My expertise lie in Python and Django but working in agile development environments has allowed me to complete a broad range of projects involving JavaScript, React, React Native, Ansible, SQL, PHP and Bash. The domains I have applied my skills to include big data analytics, Internet of Things and web development. In a personal project I have developed the React Native mobile app 'Scan to Listen' for scanning books to find matching audiobooks and scanning CDs/records to find the album on Spotify.</p>
+      <p class="text-lg sm:text-xl mb-16">Senior software engineer with over 5 years experience in the industry and a first class Masters in Physics from Durham University. My expertise lies in Python and Django with some of my favourite projects involving React Native. The domains I have applied my skills to include big data analytics, Internet of Things and web development. Thanks for visiting my website, read on to find out more about me or check out my blog to see what I'm sharing!</p>
     </div>
 
     <div class="overflow-x-hidden">
