@@ -16,6 +16,10 @@
             <theme-switcher :theme="theme" @themeChanged="updateTheme" />
           </li>
           <li class="mr-8 mb-6 lg:mb-0">
+            <a v-if="$route.path === '/'" href="/#tools" v-scroll-to="'#tools'" class="text-copy-primary hover:text-gray-600">Tools</a>
+            <g-link v-else to="/#tools" class="text-copy-primary hover:text-gray-600">Tools</g-link>
+          </li>
+          <li class="mr-8 mb-6 lg:mb-0">
             <a v-if="$route.path === '/'" href="/#projects" v-scroll-to="'#projects'" class="text-copy-primary hover:text-gray-600">Projects</a>
             <g-link v-else to="/#projects" class="text-copy-primary hover:text-gray-600">Projects</g-link>
           </li>

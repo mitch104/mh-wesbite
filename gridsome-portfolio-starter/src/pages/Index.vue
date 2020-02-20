@@ -15,6 +15,29 @@
     </div>
 
     <div class="overflow-x-hidden">
+      <div class="container-inner mx-auto text-xl border-t border-gray-500 py-16 relative">
+        <h2 id="tools" class="text-2xl text-center font-bold mb-8">A selection of tools I've used along the way</h2>
+        <div class="technlogies container-inner mx-auto text-xl relative">
+          <h2 class="font-bold mb-6" id="about">Languages:</h2>
+          <div class="flex flex-col sm:flex-row justify-between items-center">
+            <div class="flex-1 text-lg text-center sm:text-xl"><span class="font-medium text-3xl md:text-4xl lg:text-4xl">Python</span> &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">Javascript</span> &nbsp;&nbsp;SQL &nbsp;&nbsp;PHP &nbsp;&nbsp;Bash</div>
+          </div>
+          <h2 class="font-bold mb-6 mt-6" id="about">Backend Tech:</h2>
+          <div class="flex flex-col sm:flex-row justify-between items-center">
+            <div class="flex-1 text-lg text-center sm:text-xl"><span class="font-medium text-3xl md:text-4xl lg:text-4xl">Django</span> &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">DRF</span> &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">Postgres</span> &nbsp;&nbsp;MongoDB &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">Docker</span> &nbsp;&nbsp;Wagtail &nbsp;&nbsp;Strapi &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">Redis</span> &nbsp;&nbsp;Celery &nbsp;&nbsp;Bottle &nbsp;&nbsp;OpenAPI &nbsp;&nbsp;Scrapy &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">PyTest</span> &nbsp;&nbsp;Pipenv &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">Ansible</span> &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">Digital Ocean</span> &nbsp;&nbsp;AWS</div>
+          </div>
+          <h2 class="font-bold mb-6 mt-6" id="about">Frontend Tech:</h2>
+          <div class="flex flex-col sm:flex-row justify-between items-center">
+            <div class="flex-1 text-lg text-center sm:text-xl"><span class="font-medium text-3xl md:text-4xl lg:text-4xl">HTML</span> &nbsp;&nbsp;CSS &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">React</span> &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">React Native</span> &nbsp;&nbsp;Expo &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">Redux</span> &nbsp;&nbsp;Redux-Saga &nbsp;&nbsp;reselect &nbsp;&nbsp;JSX &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">ES6</span> &nbsp;&nbsp;Immutable.js &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">npm</span> &nbsp;&nbsp;eslint &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">WordPress</span> &nbsp;&nbsp;Appium &nbsp;&nbsp;Selenium</div>
+          </div>
+          <h2 class="font-bold mb-6 mt-6" id="about">Dev Tools:</h2>
+          <div class="flex flex-col sm:flex-row justify-between items-center">
+            <div class="flex-1 text-lg text-center sm:text-xl"><span class="font-medium text-3xl md:text-4xl lg:text-4xl">Ubuntu</span> &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">Git</span> &nbsp;&nbsp;GitHub &nbsp;&nbsp;GitLab &nbsp;&nbsp;Travis &nbsp;&nbsp;Jira &nbsp;&nbsp;Taiga &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">Sentry</span> &nbsp;&nbsp;Android Studio &nbsp;&nbsp;Xcode &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">Atom</span> &nbsp;&nbsp;vim</div>
+          </div>
+        </div> <!-- end tools -->
+    </div>
+
+    <div class="overflow-x-hidden">
       <div class="projects container-inner mx-auto text-xl border-t border-gray-500 border-b py-16 mb-16 relative">
         <h2 class="font-bold mb-6" id="projects">Here are some projects I've worked on:</h2>
 
