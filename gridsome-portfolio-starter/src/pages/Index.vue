@@ -16,21 +16,21 @@
 
     <div class="overflow-x-hidden">
       <div class="container-inner mx-auto text-xl border-t border-gray-500 py-16 relative">
-        <h2 id="tools" class="text-2xl text-center font-bold mb-6">A selection of tools I've used along the way</h2>
+        <h2 id="tools" class="text-center text-xl md:text-2xl font-bold mb-6">A selection of tools I've used along the way:</h2>
         <div class="technlogies container-inner mx-auto text-xl leading-snug relative">
-          <h2 class="font-bold mb-4 text-green-600">Languages:</h2>
+          <h2 class="font-bold mb-4 text-green-600">Languages</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
             <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-2xl md:text-4xl">Python &nbsp;&nbsp;Javascript &nbsp;&nbsp;</span>SQL &nbsp;&nbsp;PHP &nbsp;&nbsp;Bash</div>
           </div>
-          <h2 class="font-bold mb-4 mt-4 text-green-600">Backend Tech:</h2>
+          <h2 class="font-bold mb-4 mt-4 text-green-600">Backend Tech</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
             <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-2xl md:text-4xl">Django &nbsp;&nbsp;DRF &nbsp;&nbsp;Postgres &nbsp;&nbsp;</span>MongoDB<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;Docker &nbsp;&nbsp;</span>Wagtail &nbsp;&nbsp;Strapi<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;Redis &nbsp;&nbsp;</span>Celery &nbsp;&nbsp;Bottle &nbsp;&nbsp;OpenAPI &nbsp;&nbsp;Scrapy<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;PyTest &nbsp;&nbsp;</span>Pipenv<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;Ansible &nbsp;&nbsp;Digital Ocean &nbsp;&nbsp;</span>AWS</div>
           </div>
-          <h2 class="font-bold mb-4 mt-4 text-green-600">Frontend Tech:</h2>
+          <h2 class="font-bold mb-4 mt-4 text-green-600">Frontend Tech</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
             <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-2xl md:text-4xl">HTML &nbsp;&nbsp;</span>CSS<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;React &nbsp;&nbsp;React Native &nbsp;&nbsp;</span>Expo<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;Redux &nbsp;&nbsp;</span>Redux-Saga &nbsp;&nbsp;reselect &nbsp;&nbsp;JSX<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;ES6 &nbsp;&nbsp;</span>Immutable.js<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;npm &nbsp;&nbsp;</span>eslint &nbsp;&nbsp;Gridsome<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;WordPress &nbsp;&nbsp;</span>Appium &nbsp;&nbsp;Selenium</div>
           </div>
-          <h2 class="font-bold mb-4 mt-4 text-green-600">Dev Tools:</h2>
+          <h2 class="font-bold mb-4 mt-4 text-green-600">Dev Tools</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
             <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-2xl md:text-4xl">Ubuntu &nbsp;&nbsp;Git &nbsp;&nbsp;</span>GitHub &nbsp;&nbsp;GitLab &nbsp;&nbsp;Travis &nbsp;&nbsp;Jira &nbsp;&nbsp;Taiga<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;Sentry &nbsp;&nbsp;</span>Segment &nbsp;&nbsp;Android Studio &nbsp;&nbsp;Xcode;<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;Atom &nbsp;&nbsp;</span>vim</div>
           </div>
@@ -39,7 +39,7 @@
 
     <div class="overflow-x-hidden">
       <div class="projects container-inner mx-auto text-xl border-t border-gray-500 border-b py-16 mb-16 relative">
-        <h2 class="font-bold mb-6" id="projects">Here are some projects I've worked on:</h2>
+        <h2 class="text-center text-xl md:text-2xl font-bold mb-6" id="projects">Here are some projects I've worked on:</h2>
 
         <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
@@ -47,20 +47,20 @@
 
         <ul class="text-lg sm:text-xl">
           <li class="checkmark mb-6">
-            <div>Project One</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
+            <div>Scan to Listen</div>
+            <div class="text-lg text-gray-600">This personal project is a React Native mobile application with a Python backend for scanning the barcode of a book to find the matching audiobook, as well as CDs and vinyl to find the matching album on Spotify. It is currently available on the <a href="https://play.google.com/store/apps/details?id=com.mitchellharle.scan_to_listen">Android Play Store</a> with over 150 active downloads.</div>
           </li>
           <li class="checkmark mb-6">
-            <div>Project Two</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
+            <div>Django Identity and Access Managment System</div>
+            <div class="text-lg text-gray-600">Designed and implemented a novel cookie based authentication mechanism where a user can seamlessly Single-Sign-On to multiple Django applications that are hosted on the same sub-domain, providing a centralised area in which user privledges could be managed. This project was completed within 7 weeks.</div>
           </li>
           <li class="checkmark mb-6">
-            <div>Project Three</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
+            <div>Z-Connect</div>
+            <div class="text-lg text-gray-600">Whilst at <a href="https://zoetrope.io/">zoetrope.io</a> I majorly contributed towards the versatile Internet of Things platform 'Z-Connect' that was used as the backbone for many IoT projects, with modular plugins on the Python backend and generic reusable React components for web and mobile apps. This project has been <a href="https://github.com/zconnect-iot">open sourced</a>.</div>
           </li>
           <li class="checkmark mb-6">
-            <div>Project Four</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
+            <div>Hello-Novo</div>
+            <div class="text-lg text-gray-600">Working with 'e-on' as a client, I helped build a air conditioning control system built ontop of Z-Connect. This included the creation of a hardware-in-loop testing system for an IoT gateway, infrared device, cloud software and mobile app. This automatically tested the user setup process, simulating user input with 'Appium', greatly reducing manual testing and increasing reliability of the product. You can find a blog post I wrote on the topic <a href="https://lnkd.in/g4VNKCS">here</a>.</div>
           </li>
 
         </ul>
@@ -69,7 +69,7 @@
 
     <div class="overflow-x-hidden border-gray-200 border-b">
       <div class="get-to-know-me container-inner mx-auto text-xl pb-16 relative">
-        <h2 class="font-bold mb-6" id="about">Get to know me:</h2>
+        <h2 class="text-center text-xl md:text-2xl font-bold mb-6" id="about">Get to know me:</h2>
 
         <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
@@ -77,7 +77,7 @@
 
         <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
           <div><g-image src="../../static/skate.jpg" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0 border-4 border-green-700" /></div>
-          <div class="flex-1 text-lg sm:text-xl ml-6">In my spare time I skateboard, go to the gym and listen to audiobooks - mostly non-fiction!</div>
+          <div class="flex-1 text-lg sm:text-xl ml-6">In my spare time I skateboard, go to the gym and listen to audiobooks - mostly non-fiction!<br><br>If you wish to connect please find my channels below.</div>
         </div>
 
       </div> <!-- end get-to-know me -->
