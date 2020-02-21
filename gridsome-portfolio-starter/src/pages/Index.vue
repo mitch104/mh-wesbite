@@ -16,23 +16,23 @@
 
     <div class="overflow-x-hidden">
       <div class="container-inner mx-auto text-xl border-t border-gray-500 py-16 relative">
-        <h2 id="tools" class="text-2xl text-center font-bold mb-8">A selection of tools I've used along the way</h2>
-        <div class="technlogies container-inner mx-auto text-xl relative">
-          <h2 class="font-bold mb-6" id="about">Languages:</h2>
+        <h2 id="tools" class="text-2xl text-center font-bold mb-6">A selection of tools I've used along the way</h2>
+        <div class="technlogies container-inner mx-auto text-xl leading-snug relative">
+          <h2 class="font-bold mb-4 text-green-600">Languages:</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
-            <div class="flex-1 text-lg text-center sm:text-xl"><span class="font-medium text-3xl md:text-4xl lg:text-4xl">Python</span> &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">Javascript</span> &nbsp;&nbsp;SQL &nbsp;&nbsp;PHP &nbsp;&nbsp;Bash</div>
+            <div class="flex-1 text-lg text-center sm:text-xl"><span class="font-medium text-3xl md:text-4xl lg:text-4xl">Python &nbsp;&nbsp;Javascript &nbsp;&nbsp;</span>SQL &nbsp;&nbsp;PHP &nbsp;&nbsp;Bash</div>
           </div>
-          <h2 class="font-bold mb-6 mt-6" id="about">Backend Tech:</h2>
+          <h2 class="font-bold mb-4 mt-4 text-green-600">Backend Tech:</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
-            <div class="flex-1 text-lg text-center sm:text-xl"><span class="font-medium text-3xl md:text-4xl lg:text-4xl">Django</span> &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">DRF</span> &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">Postgres</span> &nbsp;&nbsp;MongoDB &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">Docker</span> &nbsp;&nbsp;Wagtail &nbsp;&nbsp;Strapi &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">Redis</span> &nbsp;&nbsp;Celery &nbsp;&nbsp;Bottle &nbsp;&nbsp;OpenAPI &nbsp;&nbsp;Scrapy &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">PyTest</span> &nbsp;&nbsp;Pipenv &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">Ansible</span> &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">Digital Ocean</span> &nbsp;&nbsp;AWS</div>
+            <div class="flex-1 text-lg text-center sm:text-xl"><span class="font-medium text-3xl md:text-4xl lg:text-4xl">Django &nbsp;&nbsp;DRF &nbsp;&nbsp;Postgres &nbsp;&nbsp;</span>MongoDB<span class="font-medium text-3xl md:text-4xl lg:text-4xl"> &nbsp;&nbsp;Docker &nbsp;&nbsp;</span>Wagtail &nbsp;&nbsp;Strapi<span class="font-medium text-3xl md:text-4xl lg:text-4xl"> &nbsp;&nbsp;Redis &nbsp;&nbsp;</span>Celery &nbsp;&nbsp;Bottle &nbsp;&nbsp;OpenAPI &nbsp;&nbsp;Scrapy<span class="font-medium text-3xl md:text-4xl lg:text-4xl"> &nbsp;&nbsp;PyTest &nbsp;&nbsp;</span>Pipenv<span class="font-medium text-3xl md:text-4xl lg:text-4xl"> &nbsp;&nbsp;Ansible &nbsp;&nbsp;Digital Ocean &nbsp;&nbsp;</span>AWS</div>
           </div>
-          <h2 class="font-bold mb-6 mt-6" id="about">Frontend Tech:</h2>
+          <h2 class="font-bold mb-4 mt-4 text-green-600">Frontend Tech:</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
-            <div class="flex-1 text-lg text-center sm:text-xl"><span class="font-medium text-3xl md:text-4xl lg:text-4xl">HTML</span> &nbsp;&nbsp;CSS &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">React</span> &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">React Native</span> &nbsp;&nbsp;Expo &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">Redux</span> &nbsp;&nbsp;Redux-Saga &nbsp;&nbsp;reselect &nbsp;&nbsp;JSX &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">ES6</span> &nbsp;&nbsp;Immutable.js &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">npm</span> &nbsp;&nbsp;eslint &nbsp;&nbsp;Gridsome &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">WordPress</span> &nbsp;&nbsp;Appium &nbsp;&nbsp;Selenium</div>
+            <div class="flex-1 text-lg text-center sm:text-xl"><span class="font-medium text-3xl md:text-4xl lg:text-4xl">HTML &nbsp;&nbsp;</span>CSS<span class="font-medium text-3xl md:text-4xl lg:text-4xl"> &nbsp;&nbsp;React &nbsp;&nbsp;React Native &nbsp;&nbsp;</span>Expo<span class="font-medium text-3xl md:text-4xl lg:text-4xl"> &nbsp;&nbsp;Redux &nbsp;&nbsp;</span>Redux-Saga &nbsp;&nbsp;reselect &nbsp;&nbsp;JSX<span class="font-medium text-3xl md:text-4xl lg:text-4xl"> &nbsp;&nbsp;ES6 &nbsp;&nbsp;</span>Immutable.js<span class="font-medium text-3xl md:text-4xl lg:text-4xl"> &nbsp;&nbsp;npm &nbsp;&nbsp;</span>eslint &nbsp;&nbsp;Gridsome<span class="font-medium text-3xl md:text-4xl lg:text-4xl"> &nbsp;&nbsp;WordPress &nbsp;&nbsp;</span>Appium &nbsp;&nbsp;Selenium</div>
           </div>
-          <h2 class="font-bold mb-6 mt-6" id="about">Dev Tools:</h2>
+          <h2 class="font-bold mb-4 mt-4 text-green-600">Dev Tools:</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
-            <div class="flex-1 text-lg text-center sm:text-xl"><span class="font-medium text-3xl md:text-4xl lg:text-4xl">Ubuntu</span> &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">Git</span> &nbsp;&nbsp;GitHub &nbsp;&nbsp;GitLab &nbsp;&nbsp;Travis &nbsp;&nbsp;Jira &nbsp;&nbsp;Taiga &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">Sentry</span> &nbsp;&nbsp;Segment &nbsp;&nbsp;Android Studio &nbsp;&nbsp;Xcode &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl lg:text-4xl">Atom</span> &nbsp;&nbsp;vim</div>
+            <div class="flex-1 text-lg text-center sm:text-xl"><span class="font-medium text-3xl md:text-4xl lg:text-4xl">Ubuntu &nbsp;&nbsp;Git &nbsp;&nbsp;</span>GitHub &nbsp;&nbsp;GitLab &nbsp;&nbsp;Travis &nbsp;&nbsp;Jira &nbsp;&nbsp;Taiga<span class="font-medium text-3xl md:text-4xl lg:text-4xl"> &nbsp;&nbsp;Sentry &nbsp;&nbsp;</span>Segment &nbsp;&nbsp;Android Studio &nbsp;&nbsp;Xcode;<span class="font-medium text-3xl md:text-4xl lg:text-4xl"> &nbsp;&nbsp;Atom &nbsp;&nbsp;</span>vim</div>
           </div>
         </div> <!-- end tools -->
     </div>
