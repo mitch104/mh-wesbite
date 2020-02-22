@@ -6,6 +6,7 @@ module.exports = {
         '108': '27rem',
       },
       borderWidth: {
+        '6': '6px',
         '14': '14px',
       }
     },

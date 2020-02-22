@@ -6,31 +6,31 @@
         <div class="text-green-700 leading-tight">Software Engineer</div>
       </div>
       <div class="mt-8 sm:mt-0">
-        <img src="../../static/portrait_1.jpg" alt="hero" width=300 class="mx-auto sm:mx-0 border-8 border-green-700" />
+        <img src="../../static/portrait_1.jpg" alt="hero" width=300 class="mx-auto sm:mx-0 border-6 border-green-700" />
       </div>
     </div> <!-- end hero -->
 
     <div class="container-inner mx-auto">
-      <p class="text-lg sm:text-xl mb-16">Senior software engineer with over 5 years experience in the industry and a first class Masters in Physics from Durham University. My expertise lies in Python and Django with some of my favourite projects involving React Native. The domains I have applied my skills to include big data analytics, Internet of Things and web development. Thanks for visiting my website, read on to find out more about me or check out my blog to see what I'm sharing!</p>
+      <p class="text-lg sm:text-xl mb-16">Software engineer with over 5 years experience in the industry and a first class Masters in Physics from Durham University. My expertise lies in Python and Django with some of my favourite projects in React Native. Passionate about building great software, always looking to increase productivity and efficiency of the engineering team I am a part of without compromising on quality. The domains I have applied my skills to include big data analytics, Internet of Things and web development.<br><br>Thanks for visiting my website, read on to find out more about me or check out my blog to see what I'm sharing!</p>
     </div>
 
     <div class="overflow-x-hidden">
       <div class="container-inner mx-auto text-xl border-t border-gray-500 py-16 relative">
         <h2 id="tools" class="text-center text-xl md:text-2xl font-bold mb-6">A selection of tools I've used along the way:</h2>
         <div class="technlogies container-inner mx-auto text-xl leading-snug relative">
-          <h2 class="font-bold mb-4 text-green-600">Languages</h2>
+          <h2 class="font-bold mb-4 text-green-700">Languages</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
             <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-2xl md:text-4xl">Python &nbsp;&nbsp;Javascript &nbsp;&nbsp;</span>SQL &nbsp;&nbsp;PHP &nbsp;&nbsp;Bash</div>
           </div>
-          <h2 class="font-bold mb-4 mt-4 text-green-600">Backend Tech</h2>
+          <h2 class="font-bold mb-4 mt-4 text-green-700">Backend Tech</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
-            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-2xl md:text-4xl">Django &nbsp;&nbsp;DRF &nbsp;&nbsp;Postgres &nbsp;&nbsp;</span>MongoDB<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;Docker &nbsp;&nbsp;</span>Wagtail &nbsp;&nbsp;Strapi<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;Redis &nbsp;&nbsp;</span>Celery &nbsp;&nbsp;Bottle &nbsp;&nbsp;OpenAPI &nbsp;&nbsp;Scrapy<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;PyTest &nbsp;&nbsp;</span>Pipenv<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;Ansible &nbsp;&nbsp;Digital Ocean &nbsp;&nbsp;</span>AWS</div>
+            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-2xl md:text-4xl">Django &nbsp;&nbsp;DRF &nbsp;&nbsp;Postgres &nbsp;&nbsp;</span>MongoDB<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;Docker &nbsp;&nbsp;</span>Wagtail &nbsp;&nbsp;Strapi<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;Redis &nbsp;&nbsp;</span>Celery &nbsp;&nbsp;Bottle &nbsp;&nbsp;OpenAPI &nbsp;&nbsp;Scrapy &nbsp;&nbsp;Matplotlib<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;PyTest &nbsp;&nbsp;</span>Pipenv<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;Ansible &nbsp;&nbsp;Digital Ocean &nbsp;&nbsp;</span>AWS</div>
           </div>
-          <h2 class="font-bold mb-4 mt-4 text-green-600">Frontend Tech</h2>
+          <h2 class="font-bold mb-4 mt-4 text-green-700">Frontend Tech</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
             <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-2xl md:text-4xl">HTML &nbsp;&nbsp;</span>CSS<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;React &nbsp;&nbsp;React Native &nbsp;&nbsp;</span>Expo<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;Redux &nbsp;&nbsp;</span>Redux-Saga &nbsp;&nbsp;reselect &nbsp;&nbsp;JSX<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;ES6 &nbsp;&nbsp;</span>Immutable.js<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;npm &nbsp;&nbsp;</span>eslint &nbsp;&nbsp;Gridsome<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;WordPress &nbsp;&nbsp;</span>Appium &nbsp;&nbsp;Selenium</div>
           </div>
-          <h2 class="font-bold mb-4 mt-4 text-green-600">Dev Tools</h2>
+          <h2 class="font-bold mb-4 mt-4 text-green-700">Dev Tools</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
             <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-2xl md:text-4xl">Ubuntu &nbsp;&nbsp;Git &nbsp;&nbsp;</span>GitHub &nbsp;&nbsp;GitLab &nbsp;&nbsp;Travis &nbsp;&nbsp;Jira &nbsp;&nbsp;Taiga<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;Sentry &nbsp;&nbsp;</span>Segment &nbsp;&nbsp;Android Studio &nbsp;&nbsp;Xcode;<span class="font-medium text-2xl md:text-4xl"> &nbsp;&nbsp;Atom &nbsp;&nbsp;</span>vim</div>
           </div>
@@ -52,7 +52,7 @@
           </li>
           <li class="checkmark mb-6">
             <div>Django Identity and Access Managment System</div>
-            <div class="text-lg text-gray-600">Designed and implemented a novel cookie based authentication mechanism where a user can seamlessly Single-Sign-On to multiple Django applications that are hosted on the same sub-domain, providing a centralised area in which user privledges could be managed. This project was completed within 7 weeks.</div>
+            <div class="text-lg text-gray-600">Designed and implemented a novel cookie based authentication mechanism where a user can seamlessly Single-Sign-On to multiple Django applications that are hosted on the same sub-domain, providing a centralised area in which user access privledges can be managed. This project was completed within 7 weeks.</div>
           </li>
           <li class="checkmark mb-6">
             <div>Z-Connect</div>
@@ -60,9 +60,12 @@
           </li>
           <li class="checkmark mb-6">
             <div>Hello-Novo</div>
-            <div class="text-lg text-gray-600">Working with 'e-on' as a client, I helped build a air conditioning control system built ontop of Z-Connect. This included the creation of a hardware-in-loop testing system for an IoT gateway, infrared device, cloud software and mobile app. This automatically tested the user setup process, simulating user input with 'Appium', greatly reducing manual testing and increasing reliability of the product. You can find a blog post I wrote on the topic <a href="https://lnkd.in/g4VNKCS">here</a>.</div>
+            <div class="text-lg text-gray-600">Working with 'e-on' as a client, I helped build an air conditioning control system built on top of Z-Connect. This included the creation of a hardware-in-loop testing system for an IoT gateway, infrared device, cloud software and mobile app. This automatically tested the user setup process, simulating user input with 'Appium', greatly reducing manual testing and increasing reliability of the product. You can find a blog post I wrote on the topic <a href="https://lnkd.in/g4VNKCS">here</a>.</div>
           </li>
-
+          <li class="checkmark mb-6">
+            <div>Ping!</div>
+            <div class="text-lg text-gray-600">Technical lead on a news distribution system for the Centre for Community Journalism, in which I developed a WordPress plugin for hyperlocal journalists to submit their news story to the system via a Django Rest Framework API. See <a href="https://omni-digital.co.uk/case-studies/ping">here</a> for more information.</div>
+          </li>
         </ul>
       </div> <!-- end projects -->
     </div>
@@ -76,8 +79,8 @@
         </div>
 
         <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
-          <div><g-image src="../../static/skate.jpg" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0 border-4 border-green-700" /></div>
-          <div class="flex-1 text-lg sm:text-xl ml-6">In my spare time I skateboard, go to the gym and listen to audiobooks - mostly non-fiction!<br><br>If you wish to connect please find my channels below.</div>
+          <div><g-image src="../../static/skate.jpg" alt="avatar" class="w-32 h-32 md:w-48 md:h-48 rounded-full mb-8 lg:mb-0 border-6 border-green-700" /></div>
+          <div class="flex-1 text-lg sm:text-xl ml-6 md:ml-8">In my spare time I skateboard, go to the gym and listen to audiobooks - mostly non-fiction!<br><br>If you wish to connect please find my channels below.</div>
         </div>
 
       </div> <!-- end get-to-know me -->
