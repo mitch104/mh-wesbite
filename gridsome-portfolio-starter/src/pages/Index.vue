@@ -64,7 +64,11 @@
           </li>
           <li class="checkmark mb-6">
             <div>Ping!</div>
-            <div class="text-lg text-gray-600">Technical lead on a news distribution system for the Centre for Community Journalism, in which I developed a WordPress plugin for hyperlocal journalists to submit their news story to the system via a Django Rest Framework API. See <a href="https://omni-digital.co.uk/case-studies/ping">here</a> for more information.</div>
+            <div class="text-lg text-gray-600">Technical lead on a news distribution system for the Centre for Community Journalism, in which I developed a <a href="https://en-gb.wordpress.org/plugins/ping-news/">WordPress plugin</a> for hyperlocal journalists to submit their news story to the system via a Django Rest Framework API. See <a href="https://omni-digital.co.uk/case-studies/ping">here</a> for more information.</div>
+          </li>
+          <li class="checkmark mb-6">
+            <div>mitchell.harle.com</div>
+            <div class="text-lg text-gray-600">This website is built with <a href="gridsome.org">Gridsome</a> and <a href="https://tailwindcss.com/">Tailwind</a> on top of the <a href="https://github.com/drehimself/gridsome-portfolio-starter">Gridsome portfolio starter</a>. Here is the  <a href="">code</a>.</div>
           </li>
         </ul>
       </div> <!-- end projects -->
