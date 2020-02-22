@@ -4,6 +4,7 @@
       <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
         <div class="leading-tight">Mitchell Harle</div>
         <div class="text-green-700 leading-tight">Software Engineer</div>
+        <div class="font-medium text-lg">Bristol, UK</div>
       </div>
       <div class="mt-8 sm:mt-0">
         <img src="../../static/portrait_1.jpg" alt="hero" width=300 class="mx-auto sm:mx-0 border-6 border-green-700" />
@@ -11,7 +12,7 @@
     </div> <!-- end hero -->
 
     <div class="container-inner mx-auto">
-      <p class="text-lg sm:text-xl mb-16">Software engineer with over 5 years experience in the industry and a first class Masters in Physics from Durham University. My expertise lies in Python and Django with some of my favourite projects in React Native. Passionate about building great software, always looking to increase productivity and efficiency of the engineering team I am a part of without compromising on quality. The domains I have applied my skills to include big data analytics, Internet of Things and web development.<br><br>Thanks for visiting my website, read on to find out more about me or check out my blog to see what I'm sharing!</p>
+      <p class="text-lg sm:text-xl mb-16">Software engineer with over 5 years experience in the industry and a first class Masters in Physics from Durham University. My expertise lies in Python and Django with some of my favourite projects in React Native. Passionate about building great software, always looking to increase productivity and efficiency of the engineering team I am a part of without compromising on quality. The domains I have applied my skills to include big data analytics, Internet of Things and web development.<br><br>Thanks for visiting my website, read on to find out more about me or check out my <a href="/blog">blog</a> to see what I've been sharing!</p>
     </div>
 
     <div class="overflow-x-hidden">
@@ -84,7 +85,13 @@
 
         <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
           <div><g-image src="../../static/skate.jpg" alt="avatar" class="w-32 h-32 md:w-48 md:h-48 rounded-full mb-8 lg:mb-0 border-6 border-green-700" /></div>
-          <div class="flex-1 text-lg sm:text-xl ml-6 md:ml-8">In my spare time I skateboard, go to the gym and listen to audiobooks - mostly non-fiction!<br><br>If you wish to connect please find my channels below.</div>
+          <div class="flex-1 text-lg sm:text-xl ml-6 md:ml-8">
+            <ul class="list-disc">
+              <li>Skateboard has been as a hobby since 2001, competed in numerous competitions, filmed and edited many skateboarding videos in Adobe Premier Pro.</li>
+              <li>Avid audiobook and podcast listener, mostly non-fiction with a keen interest in the future of technology, with favourites such as <a href="https://www.audible.co.uk/pd/Superintelligence-Audiobook/B00LPMA33G">Superintelligence</a> and <a href="https://www.audible.co.uk/pd/Rise-of-the-Robots-Audiobook/B01CGURY8C">The Rise of the Robots</a>.</li>
+              <li>Keep fit and weight lift at the gym 4/5 times a week, have ran in the Bristol 10k, enjoy cycling and helped fund raise for 'Byers Green Amateur Boxing Club'.</li>
+            </ul>
+            <br>If you wish to connect please find my channels of communication below.</div>
         </div>
 
       </div> <!-- end get-to-know me -->
