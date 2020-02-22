@@ -75,7 +75,7 @@
       </div> <!-- end projects -->
     </div>
 
-    <div class="overflow-x-hidden border-gray-200 border-b">
+    <div class="overflow-x-hidden">
       <div class="get-to-know-me container-inner mx-auto text-xl pb-16 relative">
         <h2 class="text-center text-xl md:text-2xl font-bold mb-6" id="about">Get to know me:</h2>
 
