@@ -57,11 +57,11 @@
           </li>
           <li class="checkmark mb-6">
             <div>Z-Connect</div>
-            <div class="text-lg text-gray-600">Whilst at <a href="https://zoetrope.io/">zoetrope.io</a> I majorly contributed towards the versatile Internet of Things platform 'Z-Connect' that was used as the backbone for many IoT projects, with modular plugins on the Python backend and generic reusable React components for web and mobile apps. This project has been <a href="https://github.com/zconnect-iot">open sourced</a>.</div>
+            <div class="text-lg text-gray-600">Whilst at <a href="https://zoetrope.io/">zoetrope.io</a> I majorly contributed towards the versatile Internet of Things platform Z-Connect that was used as the backbone for many IoT projects, with modular plugins on the Python backend and generic reusable React components for web and mobile apps. This project has been <a href="https://github.com/zconnect-iot">open sourced</a>.</div>
           </li>
           <li class="checkmark mb-6">
             <div>Hello-Novo</div>
-            <div class="text-lg text-gray-600">Working with 'e-on' as a client, I helped build an air conditioning control system built on top of Z-Connect. This included the creation of a hardware-in-loop testing system for an IoT gateway, infrared device, cloud software and mobile app. This automatically tested the user setup process, simulating user input with 'Appium', greatly reducing manual testing and increasing reliability of the product. You can find a blog post I wrote on the topic <a href="https://lnkd.in/g4VNKCS">here</a>.</div>
+            <div class="text-lg text-gray-600">Working with e-on as a client, I helped build an air conditioning control system built on top of Z-Connect. This included the creation of a hardware-in-loop testing system for an IoT gateway, infrared device, cloud software and mobile app. This automatically tested the user setup process, simulating user input with 'Appium', greatly reducing manual testing and increasing reliability of the product. You can find a blog post I wrote on the topic <a href="https://lnkd.in/g4VNKCS">here</a>.</div>
           </li>
           <li class="checkmark mb-6">
             <div>Ping!</div>
@@ -87,9 +87,9 @@
           <div><g-image src="../../static/skate.jpg" alt="avatar" class="w-32 h-32 md:w-48 md:h-48 rounded-full mb-8 lg:mb-0 border-6 border-green-700" /></div>
           <div class="flex-1 text-lg sm:text-xl ml-6 md:ml-8">
             <ul class="list-disc">
-              <li>Skateboard has been as a hobby since 2001, competed in numerous competitions, filmed and edited many skateboarding videos in Adobe Premier Pro.</li>
+              <li>Skateboarding has been as a hobby since 2001, competed in numerous competitions, filmed and edited many skateboarding videos in Adobe Premier Pro.</li>
               <li>Avid audiobook and podcast listener, mostly non-fiction with a keen interest in the future of technology, with favourites such as <a href="https://www.audible.co.uk/pd/Superintelligence-Audiobook/B00LPMA33G">Superintelligence</a> and <a href="https://www.audible.co.uk/pd/Rise-of-the-Robots-Audiobook/B01CGURY8C">The Rise of the Robots</a>.</li>
-              <li>Keep fit and weight lift at the gym 4/5 times a week, have ran in the Bristol 10k, enjoy cycling and helped fund raise for 'Byers Green Amateur Boxing Club'.</li>
+              <li>Keep fit and weight lift at the gym 4 to 5 times a week, have ran in the Bristol 10k, enjoy cycling and helped fund raise for Byers Green Amateur Boxing Club.</li>
             </ul>
             <br>If you wish to connect please find my channels of communication below.</div>
         </div>
