@@ -2,8 +2,9 @@
   "name": "andremadarang",
   "private": true,
   "scripts": {
+    "gh-pages-help": "gh-pages --help",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d dist",
+    "deploy": "gh-pages -b master -d dist -r git@github.com:mitch104/mitch104.github.io.git",
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore"
