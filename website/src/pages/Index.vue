@@ -21,19 +21,19 @@
         <div class="technlogies container-inner mx-auto text-xl leading-snug relative">
           <h2 class="font-bold mb-4 text-green-700">Languages</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
-            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-2xl sm:text-3xl md:text-4xl">Python &nbsp;&nbsp;Javascript &nbsp;&nbsp;</span>SQL &nbsp;&nbsp;PHP &nbsp;&nbsp;Bash</div>
+            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">Python &nbsp;&nbsp;Javascript &nbsp;&nbsp;</span>SQL &nbsp;&nbsp;PHP &nbsp;&nbsp;Bash</div>
           </div>
           <h2 class="font-bold mb-4 mt-4 text-green-700">Backend Tech</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
-            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-2xl sm:text-3xl md:text-4xl">Django &nbsp;&nbsp;DRF &nbsp;&nbsp;Postgres &nbsp;&nbsp;</span>MongoDB<span class="font-medium text-2xl sm:text-3xl md:text-4xl"> &nbsp;&nbsp;Docker &nbsp;&nbsp;</span>Wagtail &nbsp;&nbsp;Strapi<span class="font-medium text-2xl sm:text-3xl md:text-4xl"> &nbsp;&nbsp;Redis &nbsp;&nbsp;</span>Celery &nbsp;&nbsp;Bottle &nbsp;&nbsp;OpenAPI &nbsp;&nbsp;Scrapy &nbsp;&nbsp;Matplotlib<span class="font-medium text-2xl sm:text-3xl md:text-4xl"> &nbsp;&nbsp;PyTest &nbsp;&nbsp;</span>Pipenv<span class="font-medium text-2xl sm:text-3xl md:text-4xl"> &nbsp;&nbsp;Ansible &nbsp;&nbsp;Digital Ocean &nbsp;&nbsp;</span>AWS</div>
+            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">Django &nbsp;&nbsp;DRF &nbsp;&nbsp;Postgres &nbsp;&nbsp;</span>MongoDB<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Docker &nbsp;&nbsp;</span>Wagtail &nbsp;&nbsp;Strapi<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Redis &nbsp;&nbsp;</span>Celery &nbsp;&nbsp;Bottle &nbsp;&nbsp;OpenAPI &nbsp;&nbsp;Scrapy &nbsp;&nbsp;Matplotlib<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;PyTest &nbsp;&nbsp;</span>Pipenv<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Ansible &nbsp;&nbsp;Digital Ocean &nbsp;&nbsp;</span>AWS</div>
           </div>
           <h2 class="font-bold mb-4 mt-4 text-green-700">Frontend Tech</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
-            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-2xl sm:text-3xl md:text-4xl">HTML &nbsp;&nbsp;</span>CSS<span class="font-medium text-2xl sm:text-3xl md:text-4xl"> &nbsp;&nbsp;React &nbsp;&nbsp;React Native &nbsp;&nbsp;</span>Expo<span class="font-medium text-2xl sm:text-3xl md:text-4xl"> &nbsp;&nbsp;Redux &nbsp;&nbsp;</span>Redux-Saga &nbsp;&nbsp;reselect &nbsp;&nbsp;JSX<span class="font-medium text-2xl sm:text-3xl md:text-4xl"> &nbsp;&nbsp;ES6 &nbsp;&nbsp;</span>Immutable.js<span class="font-medium text-2xl sm:text-3xl md:text-4xl"> &nbsp;&nbsp;npm &nbsp;&nbsp;</span>eslint &nbsp;&nbsp;Gridsome<span class="font-medium text-2xl sm:text-3xl md:text-4xl"> &nbsp;&nbsp;WordPress &nbsp;&nbsp;</span>Appium &nbsp;&nbsp;Selenium</div>
+            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">HTML &nbsp;&nbsp;</span>CSS<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;React &nbsp;&nbsp;React Native &nbsp;&nbsp;</span>Expo<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Redux &nbsp;&nbsp;</span>Redux-Saga &nbsp;&nbsp;reselect &nbsp;&nbsp;JSX<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;ES6 &nbsp;&nbsp;</span>Immutable.js<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;npm &nbsp;&nbsp;</span>eslint &nbsp;&nbsp;Gridsome<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;WordPress &nbsp;&nbsp;</span>Appium &nbsp;&nbsp;Selenium</div>
           </div>
           <h2 class="font-bold mb-4 mt-4 text-green-700">Dev Tools</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
-            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-2xl sm:text-3xl md:text-4xl">Ubuntu &nbsp;&nbsp;Git &nbsp;&nbsp;</span>GitHub &nbsp;&nbsp;GitLab &nbsp;&nbsp;Travis &nbsp;&nbsp;Jira &nbsp;&nbsp;Taiga<span class="font-medium text-2xl sm:text-3xl md:text-4xl"> &nbsp;&nbsp;Sentry &nbsp;&nbsp;</span>Segment &nbsp;&nbsp;Android Studio &nbsp;&nbsp;Xcode<span class="font-medium text-2xl sm:text-3xl md:text-4xl"> &nbsp;&nbsp;Atom &nbsp;&nbsp;</span>vim</div>
+            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">Ubuntu &nbsp;&nbsp;Git &nbsp;&nbsp;</span>GitHub &nbsp;&nbsp;GitLab &nbsp;&nbsp;Travis &nbsp;&nbsp;Jira &nbsp;&nbsp;Taiga<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Sentry &nbsp;&nbsp;</span>Segment &nbsp;&nbsp;Android Studio &nbsp;&nbsp;Xcode<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Atom &nbsp;&nbsp;</span>vim</div>
           </div>
         </div> <!-- end tools -->
     </div>
@@ -68,8 +68,8 @@
             <div class="text-lg text-gray-600">Technical lead on a news distribution system for the Centre for Community Journalism, in which I developed a <a href="https://en-gb.wordpress.org/plugins/ping-news/">WordPress plugin</a> for hyperlocal journalists to submit their news story to the system via a Django Rest Framework API. See <a href="https://omni-digital.co.uk/case-studies/ping">here</a> for more information.</div>
           </li>
           <li class="checkmark mb-6">
-            <div>mitchell.harle.com</div>
-            <div class="text-lg text-gray-600">This website is built with <a href="gridsome.org">Gridsome</a> and <a href="https://tailwindcss.com/">Tailwind</a> on top of the <a href="https://github.com/drehimself/gridsome-portfolio-starter">Gridsome portfolio starter</a>. Here is the  <a href="">code</a>.</div>
+            <div>mitchell-harle.dev</div>
+            <div class="text-lg text-gray-600">This website is built with <a href="gridsome.org">Gridsome</a> and <a href="https://tailwindcss.com/">Tailwind</a> on top of the <a href="https://github.com/drehimself/gridsome-portfolio-starter">Gridsome portfolio starter</a>, it is hosted on GitHub Pages and the code lives <a href="https://github.com/mitch104/mh-wesbite">here</a>.</div>
           </li>
         </ul>
       </div> <!-- end projects -->
