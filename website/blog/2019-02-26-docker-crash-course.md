@@ -3,7 +3,7 @@ title: Docker Crash Course
 path: /docker-crash-course
 date: 2019-02-26
 summary: This document provides an introduction and reference guide for developing with the containerisation tool Docker and is by no means exhaustive.
-tags: ['backend', 'docker']
+tags: ['Backend', 'Docker']
 ---
 
 This document provides an introduction and reference guide for developing with the containerisation tool [Docker](https://www.docker.com/) and is by no means exhaustive. If you wish to further your knowledge on the capabilities of Docker please see the [Resources](#resources) section.
