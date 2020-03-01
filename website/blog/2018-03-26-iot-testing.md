@@ -3,7 +3,7 @@ title: Testing complete IoT systems with hardware
 path: /iot-testing
 date: 2018-03-26
 summary: Article on automated end-to-end testing of an IoT system  
-tags: ['IoT', 'Testing', 'Appium', 'React Native', 'Docker']
+tags: ['IoT', 'Testing', 'Appium', 'React-Native', 'Docker']
 ---
 _This [article](https://zoetrope.io/tech-blog/end-to-end-iot-hardware-appium-testing/) was written during my time at [Zoetrope Labs](https://zoetrope.io/)._
 
@@ -47,7 +47,7 @@ The main system testing stack was built with:
 
 ## Appium
 
-“[Appium is an open-source tool for automating native, mobile web, and hybrid applications on iOS, Android and Windows platforms](http://appium.io/docs/en/about-appium/intro/?lang=en)”. Appium is cross-platform so the same test code can be applied to both the iOS and Android versions of the React Native app which itself uses the same JavaScript code for both (mostly!).
+“[Appium is an open-source tool for automating native, mobile web, and hybrid applications on iOS, Android and Windows platforms](http://appium.io/docs/en/about-appium/intro/?lang=en)”. Appium is cross-platform so the same test code can be applied to both the iOS and Android versions of the React-Native app which itself uses the same JavaScript code for both (mostly!).
 
 Appium abstracts the vendor-provided automation frameworks including Apple’s XCTest, Google’s UiAutomator, Google’s Instrumentation and Microsoft’s WinAppDriver are wrapped in a single API, known as the “WebDriver”, which is the same API used in Selenium, a popular tool for automated website testing.
 
@@ -73,13 +73,13 @@ Appium tests are usually faster than it would take to perform the tests manually
 
 ### Platform specifics
 
-Despite using react native in this case, there are many platform specific differences between iOS and android, for example in our React Native app we use the native time pickers which have a very different appearance on the two platforms. This means that separate test code has to be used when interacting with these components. The Android time picker also happened to be very tricky to interact with via Appium as the movable minute hand of clock snaps to the nearest 5 minutes if the clock is tapped. A work around was to scroll from the nearest 5th minute to the desired minute, which rotates the minute hand during the scroll and stops without snapping.
+Despite using React-Native in this case, there are many platform specific differences between iOS and android, for example in our React-Native app we use the native time pickers which have a very different appearance on the two platforms. This means that separate test code has to be used when interacting with these components. The Android time picker also happened to be very tricky to interact with via Appium as the movable minute hand of clock snaps to the nearest 5 minutes if the clock is tapped. A work around was to scroll from the nearest 5th minute to the desired minute, which rotates the minute hand during the scroll and stops without snapping.
 
 Unfortunately, there are a great many other examples of these differences.
 
-### React Native
+### React-Native
 
-Facebook, who developed React Native, use the `testId` property of the rendered views in their internal testing however this is not available in the current version of Appium (v1.6.5). The `reasourceId` can also not be set via React Native (v49.0). Hence at the moment a work around for uniquely identifying elements is to use the `accessibilityLabel` which sets the `content-desc` property of the view. The disadvantage of using the `content-desc` property is that this is displayed to the user if they chose to do so from the accessibility settings, so the `content-desc` needs to be human readable and unique at least within each screen. At the time of putting together the E2E test system no accessibility labels were set in the app, so there was the tedious task of defining all of these for every element that was to be used in testing.
+Facebook, who developed React-Native, use the `testId` property of the rendered views in their internal testing however this is not available in the current version of Appium (v1.6.5). The `reasourceId` can also not be set via React-Native (v49.0). Hence at the moment a work around for uniquely identifying elements is to use the `accessibilityLabel` which sets the `content-desc` property of the view. The disadvantage of using the `content-desc` property is that this is displayed to the user if they chose to do so from the accessibility settings, so the `content-desc` needs to be human readable and unique at least within each screen. At the time of putting together the E2E test system no accessibility labels were set in the app, so there was the tedious task of defining all of these for every element that was to be used in testing.
 
 ### Brittleness
 

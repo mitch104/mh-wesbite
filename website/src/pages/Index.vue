@@ -12,7 +12,7 @@
     </div> <!-- end hero -->
 
     <div class="container-inner mx-auto">
-      <p class="text-lg sm:text-xl mb-16">Hello! I'm Mitch, a software engineer with over 5 years of experience and a first class Masters in Physics from Durham University. My expertise lies in Python and Django with some of my favourite projects using a React Native frontend. I'm passionate about building great software, always looking to increase productivity and efficiency of the engineering team I am a part of without compromising on quality. The domains I have applied my skills to include TV data analytics, Internet of Things and news syndication.<br><br>Thanks for visiting my website, read on to find out more about me or check out my <a href="/blog">blog</a> to see what I've been sharing!</p>
+      <p class="text-lg sm:text-xl mb-16">Hello! I'm Mitch, a software engineer with over 5 years of experience and a first class Masters in Physics from Durham University. My expertise lies in Python and Django with some of my favourite projects using a React-Native frontend. I'm passionate about building great software, always looking to increase productivity and efficiency of the engineering team I am a part of without compromising on quality. The domains I have applied my skills to include TV data analytics, Internet of Things and news syndication.<br><br>Thanks for visiting my website, read on to find out more about me or check out my <a href="/blog">blog</a> to see what I've been sharing!</p>
     </div>
 
     <div class="overflow-x-hidden">
@@ -29,7 +29,7 @@
           </div>
           <h2 class="font-bold mb-4 mt-4 text-green-700">Frontend Tech</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
-            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">HTML &nbsp;&nbsp;</span>CSS &nbsp;&nbsp;React &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl"><a href="/tag/React Native/">React Native</a> &nbsp;&nbsp;</span>Expo<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Redux &nbsp;&nbsp;</span>Redux-Saga &nbsp;&nbsp;reselect &nbsp;&nbsp;JSX<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;ES6 &nbsp;&nbsp;</span>Immutable.js<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;npm &nbsp;&nbsp;</span>eslint &nbsp;&nbsp;Gridsome<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;WordPress &nbsp;&nbsp;</span><a href="/tag/Appium/">Appium</a> &nbsp;&nbsp;Selenium</div>
+            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">HTML &nbsp;&nbsp;</span>CSS &nbsp;&nbsp;React &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl"><a href="/tag/React-Native/">React-Native</a> &nbsp;&nbsp;</span>Expo<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Redux &nbsp;&nbsp;</span>Redux-Saga &nbsp;&nbsp;reselect &nbsp;&nbsp;JSX<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;ES6 &nbsp;&nbsp;</span>Immutable.js<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;npm &nbsp;&nbsp;</span>eslint &nbsp;&nbsp;Gridsome<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;WordPress &nbsp;&nbsp;</span><a href="/tag/Appium/">Appium</a> &nbsp;&nbsp;Selenium</div>
           </div>
           <h2 class="font-bold mb-4 mt-4 text-green-700">Dev Tools</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
@@ -49,7 +49,7 @@
         <ul class="text-lg sm:text-xl">
           <li class="checkmark mb-6">
             <div>Scan to Listen</div>
-            <div class="text-lg text-gray-600">This personal project is a React Native mobile application with a Python backend for scanning the barcode of a book to find the matching audiobook, as well as CDs and vinyl to find the matching album on Spotify. It is currently available on the <a href="https://play.google.com/store/apps/details?id=com.mitchellharle.scan_to_listen">Android Play Store</a> with over 150 active downloads.</div>
+            <div class="text-lg text-gray-600">This personal project is a React-Native mobile application with a Python backend for scanning the barcode of a book to find the matching audiobook, as well as CDs and vinyl to find the matching album on Spotify. It is currently available on the <a href="https://play.google.com/store/apps/details?id=com.mitchellharle.scan_to_listen">Android Play Store</a> with over 150 active downloads.</div>
           </li>
           <li class="checkmark mb-6">
             <div>Django Identity and Access Managment System</div>
