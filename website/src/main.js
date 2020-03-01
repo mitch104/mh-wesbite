@@ -5,7 +5,17 @@ import DefaultLayout from '~/layouts/Default.vue'
 import VueScrollTo from 'vue-scrollto'
 import VueFuse from 'vue-fuse'
 
+
 export default function (Vue, { router, head, isClient }) {
+  head.script.push({
+    src: 'https://www.googletagmanager.com/gtag/js?id=UA-159413433-1',
+    async: true
+  })
+
+  head.script.push({
+    src: '/google-analytics.js'
+  })
+
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
 
@@ -15,6 +25,8 @@ export default function (Vue, { router, head, isClient }) {
   })
 
   Vue.use(VueFuse)
+
+
 
   head.meta.push({
     name: 'keywords',
