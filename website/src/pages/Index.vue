@@ -49,7 +49,7 @@
         <ul class="text-lg sm:text-xl">
           <li class="checkmark mb-6">
             <div>Scan to Listen</div>
-            <div class="text-lg text-gray-600">This personal project is a React-Native mobile application with a Python backend for scanning the barcode of a book to find the matching audiobook, as well as CDs and vinyl to find the matching album on Spotify. It is currently available on the <a href="https://play.google.com/store/apps/details?id=com.mitchellharle.scan_to_listen">Android Play Store</a> with over 150 active downloads.</div>
+            <div class="text-lg text-gray-600">This personal project is a React-Native mobile application with a Python backend for scanning the barcode of a book to find the matching audiobook, as well as CDs and vinyl to find the matching album on Spotify. Available on the <a href="https://play.google.com/store/apps/details?id=com.mitchellharle.scan_to_listen">Android Play Store</a> with over 150 active downloads. It's announcement became the top post of the week on <a href="https://www.reddit.com/r/reactjs/comments/eu416p/scan_to_listen_react_native_app_for_scanning_cds/">r/reactjs</a>.</div>
           </li>
           <li class="checkmark mb-6">
             <div>Django Identity and Access Managment System</div>
@@ -57,7 +57,7 @@
           </li>
           <li class="checkmark mb-6">
             <div>Z-Connect</div>
-            <div class="text-lg text-gray-600">Whilst at <a href="https://zoetrope.io/">zoetrope.io</a> I majorly contributed towards the versatile Internet of Things platform Z-Connect that was used as the backbone for many IoT projects, with modular plugins on the Python backend and generic reusable React components for web and mobile apps. This project has been <a href="https://github.com/zconnect-iot">open sourced</a>.</div>
+            <div class="text-lg text-gray-600">Whilst at <a href="https://zoetrope.io/">zoetrope.io</a> I majorly contributed towards the versatile Internet of Things platform Z-Connect that was used as the backbone for many IoT projects, with modular Python plugins and generic reusable React components for web and mobile apps. This project has been <a href="https://github.com/zconnect-iot">open sourced</a>.</div>
           </li>
           <li class="checkmark mb-6">
             <div>Hello-Novo</div>
@@ -65,11 +65,11 @@
           </li>
           <li class="checkmark mb-6">
             <div>Ping!</div>
-            <div class="text-lg text-gray-600">Technical lead on a news distribution system for the Centre for Community Journalism, in which I developed a <a href="https://en-gb.wordpress.org/plugins/ping-news/">WordPress plugin</a> for hyperlocal journalists to submit their news story to the system via a Django Rest Framework API. See <a href="https://omni-digital.co.uk/case-studies/ping">here</a> for more information.</div>
+            <div class="text-lg text-gray-600">Technical lead on a news distribution system for the Centre for Community Journalism in which I developed a <a href="https://en-gb.wordpress.org/plugins/ping-news/">WordPress plugin</a> for hyperlocal journalists to submit their news story to the system via a Django Rest Framework API. See <a href="https://omni-digital.co.uk/case-studies/ping">here</a> for more information.</div>
           </li>
           <li class="checkmark mb-6">
             <div>mitchell-harle.dev</div>
-            <div class="text-lg text-gray-600">This website is built with <a href="gridsome.org">Gridsome</a> and <a href="https://tailwindcss.com/">Tailwind</a> on top of the <a href="https://github.com/drehimself/gridsome-portfolio-starter">Gridsome portfolio starter</a>, it is hosted on GitHub Pages and the code lives <a href="https://github.com/mitch104/mh-wesbite">here</a>.</div>
+            <div class="text-lg text-gray-600">This website is built with <a href="gridsome.org">Gridsome</a> and <a href="https://tailwindcss.com/">Tailwind</a> on top of the <a href="https://github.com/drehimself/gridsome-portfolio-starter">Gridsome portfolio starter</a>, it is hosted on <a href="https://pages.github.com/">GitHub Pages</a> and the code lives <a href="https://github.com/mitch104/mh-wesbite">here</a>.</div>
           </li>
         </ul>
       </div> <!-- end projects -->
@@ -87,11 +87,11 @@
           <div><g-image src="../../static/skate.jpg" alt="avatar" class="w-32 h-32 md:w-48 md:h-48 rounded-full mb-8 lg:mb-0 border-6 border-green-700" /></div>
           <div class="flex-1 text-lg sm:text-xl ml-6 md:ml-8">
             <ul class="list-disc">
-              <li>Skateboarding has been as a hobby since 2001, competed in numerous competitions, filmed and edited many skateboarding videos in Adobe Premier Pro.</li>
+              <li>Skateboarding has been as a hobby of mine since 2001, I've competed in numerous competitions as well as filming and editing many skateboarding videos in Adobe Premier Pro.</li>
               <li>Avid audiobook and podcast listener, mostly non-fiction with a keen interest in the future of technology, with favourites such as <a href="https://www.audible.co.uk/pd/Superintelligence-Audiobook/B00LPMA33G">Superintelligence</a> and <a href="https://www.audible.co.uk/pd/Rise-of-the-Robots-Audiobook/B01CGURY8C">The Rise of the Robots</a>.</li>
-              <li>Keep fit and weight lift at the gym 4 to 5 times a week, have ran in the Bristol 10k, enjoy cycling and helped fund raise for Byers Green Amateur Boxing Club.</li>
+              <li>I like to keep fit and go to the gym 4 to 5 times a week, I've ran in the Bristol 10k twice, enjoy cycling and helped fund raise for Byers Green Amateur Boxing Club.</li>
             </ul>
-            <br>If you wish to connect please find my channels of communication below.</div>
+            <br>If you wish to connect please find my channels below.</div>
         </div>
 
       </div> <!-- end get-to-know me -->
