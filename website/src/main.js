@@ -5,7 +5,10 @@ import DefaultLayout from '~/layouts/Default.vue'
 import VueScrollTo from 'vue-scrollto'
 import VueFuse from 'vue-fuse'
 
-export default function (Vue, { router, head, isClient }) {
+import VueAnalytics from 'vue-analytics'
+
+
+export default function (Vue, { router, head, isClient, isServer }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
 
@@ -15,6 +18,15 @@ export default function (Vue, { router, head, isClient }) {
   })
 
   Vue.use(VueFuse)
+
+  Vue.use(VueAnalytics, {
+    id: 'UA-159413433-1',
+    disabled: isServer,
+    debug: {
+      sendHitTask: process.env.NODE_ENV === 'production'
+    },
+    router
+  })
 
   head.meta.push({
     name: 'keywords',
