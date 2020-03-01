@@ -21,7 +21,7 @@ export default function (Vue, { router, head, isClient, isServer }) {
 
   Vue.use(VueAnalytics, {
     id: 'UA-159413433-1',
-    disabled: isServer,
+    disabled: false,
     debug: {
       sendHitTask: process.env.NODE_ENV === 'production'
     },
