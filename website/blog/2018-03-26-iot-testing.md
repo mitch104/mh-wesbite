@@ -3,7 +3,7 @@ title: Testing complete IoT systems with hardware
 path: /iot-testing
 date: 2018-03-26
 summary: Article on automated end-to-end testing of an IoT system  
-tags: ['IoT', 'Testing', 'Appium', 'React-Native', 'Docker']
+tags: ['IoT', 'Testing', 'Appium', 'Docker', 'React-Native']
 ---
 _This [article](https://zoetrope.io/tech-blog/end-to-end-iot-hardware-appium-testing/) was written during my time at [Zoetrope Labs](https://zoetrope.io/)._
 
