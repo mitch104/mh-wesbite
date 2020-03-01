@@ -12,7 +12,7 @@
     </div> <!-- end hero -->
 
     <div class="container-inner mx-auto">
-      <p class="text-lg sm:text-xl mb-16">Software engineer with over 5 years experience in the industry and a first class Masters in Physics from Durham University. My expertise lies in Python and Django with some of my favourite projects in React Native. Passionate about building great software, always looking to increase productivity and efficiency of the engineering team I am a part of without compromising on quality. The domains I have applied my skills to include big data analytics, Internet of Things and web development.<br><br>Thanks for visiting my website, read on to find out more about me or check out my <a href="/blog">blog</a> to see what I've been sharing!</p>
+      <p class="text-lg sm:text-xl mb-16">Hello! I'm Mitch, a software engineer with over 5 years of experience and a first class Masters in Physics from Durham University. My expertise lies in Python and Django with some of my favourite projects using a React Native frontend. I'm passionate about building great software, always looking to increase productivity and efficiency of the engineering team I am a part of without compromising on quality. The domains I have applied my skills to include TV data analytics, Internet of Things and news syndication.<br><br>Thanks for visiting my website, read on to find out more about me or check out my <a href="/blog">blog</a> to see what I've been sharing!</p>
     </div>
 
     <div class="overflow-x-hidden">
