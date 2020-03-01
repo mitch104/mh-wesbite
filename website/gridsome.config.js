@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 module.exports = {
   siteName: 'Mitchell Harle',
   siteDescription: 'Personal website for software engineer Mitchell Harle',
-  siteUrl: 'https://mitch104.github.io',
+  siteUrl: 'https://www.mitchell-harle.dev',
   plugins: [
     {
       use: '@gridsome/vue-remark',
