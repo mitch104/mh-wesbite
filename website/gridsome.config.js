@@ -19,6 +19,12 @@ module.exports = {
   siteUrl: 'https://mitch104.github.io',
   plugins: [
     {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-159413433-1'
+      }
+    },
+    {
       use: '@gridsome/vue-remark',
       options: {
         typeName: 'Documentation', // Required
@@ -70,12 +76,6 @@ module.exports = {
       options: {
         cacheTime: 600000, // default
       }
-    },
-    {
-        use: '@gridsome/plugin-google-analytics',
-        options: {
-            id: 'UA-159413433-1'
-        }
     },
   ],
   templates: {
