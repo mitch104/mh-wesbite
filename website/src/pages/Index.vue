@@ -69,7 +69,7 @@
           </li>
           <li class="checkmark mb-6">
             <div>mitchell-harle.dev</div>
-            <div class="text-lg text-gray-600">This website is built with <a href="gridsome.org">Gridsome</a> and <a href="https://tailwindcss.com/">Tailwind</a> on top of the <a href="https://github.com/drehimself/gridsome-portfolio-starter">Gridsome portfolio starter</a>, it is hosted on <a href="https://pages.github.com/">GitHub Pages</a> and the code lives <a href="https://github.com/mitch104/mh-wesbite">here</a>.</div>
+            <div class="text-lg text-gray-600">This website is built with <a href="https://gridsome.org">Gridsome</a> and <a href="https://tailwindcss.com/">Tailwind</a> on top of the <a href="https://github.com/drehimself/gridsome-portfolio-starter">Gridsome portfolio starter</a>, it is hosted on <a href="https://pages.github.com/">GitHub Pages</a> and the code lives <a href="https://github.com/mitch104/mh-wesbite">here</a>.</div>
           </li>
         </ul>
       </div> <!-- end projects -->
