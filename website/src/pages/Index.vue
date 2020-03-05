@@ -12,26 +12,26 @@
     </div> <!-- end hero -->
 
     <div class="container-inner mx-auto">
-      <p class="text-lg sm:text-xl mb-16">Hello! I'm Mitch, a software engineer with over 5 years of experience and a first class Masters in Physics from Durham University. My expertise lies in Python and Django with some of my favourite projects using a React-Native frontend. I'm passionate about building great software, always looking to increase productivity and efficiency of the engineering team I am a part of without compromising on quality. The domains I have applied my skills to include TV data analytics, Internet of Things and news syndication.<br><br>Thanks for visiting my website, read on to find out more about me or check out my <a href="/blog">blog</a> to see what I've been sharing!</p>
+      <p class="text-lg sm:text-xl mb-16">Hello! I'm Mitch, a software engineer with over 5 years of experience and a first class Masters in Physics from Durham University. My expertise lies in Python and Django with some of my favourite projects using a React-Native frontend. I'm passionate about building great software, always looking to increase productivity and efficiency of the engineering team I am a part of without compromising on quality. TV data analytics, Internet of Things and news syndication are just a few of the domains I have applied my skills to.<br><br>Thanks for visiting my website, read on to find out more about me or check out my <a href="/blog">blog</a> to see what I've been sharing!</p>
     </div>
 
     <div class="overflow-x-hidden">
       <div class="container-inner mx-auto text-xl border-t border-gray-500 py-16 relative">
-        <h2 id="tools" class="text-center text-xl md:text-2xl font-bold mb-6">A selection of tools I've used along the way:</h2>
+        <h2 id="tools" class="text-center text-xl md:text-2xl font-bold mb-6">A selection of tools I've used along the way</h2>
         <div class="technlogies container-inner mx-auto text-xl leading-snug relative">
-          <h2 class="font-bold mb-4 text-green-700">Languages</h2>
+          <h2 class="font-bold mb-4">Languages:</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
             <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">Python &nbsp;&nbsp;Javascript &nbsp;&nbsp;</span>SQL &nbsp;&nbsp;PHP &nbsp;&nbsp;Bash</div>
           </div>
-          <h2 class="font-bold mb-4 mt-4 text-green-700">Backend Tech</h2>
+          <h2 class="font-bold mb-4 mt-4">Backend Tech:</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
             <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">Django &nbsp;&nbsp;DRF &nbsp;&nbsp;Postgres &nbsp;&nbsp;</span>MongoDB<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;<a href="/tag/Docker/">Docker</a> &nbsp;&nbsp;</span>Wagtail &nbsp;&nbsp;Strapi<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Redis &nbsp;&nbsp;</span>Celery &nbsp;&nbsp;Bottle &nbsp;&nbsp;OpenAPI &nbsp;&nbsp;Scrapy &nbsp;&nbsp;Matplotlib<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;PyTest &nbsp;&nbsp;</span>Pipenv<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Ansible &nbsp;&nbsp;Digital Ocean &nbsp;&nbsp;</span>AWS</div>
           </div>
-          <h2 class="font-bold mb-4 mt-4 text-green-700">Frontend Tech</h2>
+          <h2 class="font-bold mb-4 mt-4">Frontend Tech:</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
             <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">HTML &nbsp;&nbsp;</span>CSS &nbsp;&nbsp;React &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl"><a href="/tag/React-Native/">React-Native</a> &nbsp;&nbsp;</span>Expo<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Redux &nbsp;&nbsp;</span>Redux-Saga &nbsp;&nbsp;reselect &nbsp;&nbsp;JSX<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;ES6 &nbsp;&nbsp;</span>Immutable.js<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;npm &nbsp;&nbsp;</span>eslint &nbsp;&nbsp;Gridsome<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;WordPress &nbsp;&nbsp;</span><a href="/tag/Appium/">Appium</a> &nbsp;&nbsp;Selenium</div>
           </div>
-          <h2 class="font-bold mb-4 mt-4 text-green-700">Dev Tools</h2>
+          <h2 class="font-bold mb-4 mt-4">Dev Tools:</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
             <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">Ubuntu &nbsp;&nbsp;Git &nbsp;&nbsp;</span>GitHub &nbsp;&nbsp;GitLab &nbsp;&nbsp;Travis &nbsp;&nbsp;Jira &nbsp;&nbsp;Taiga<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Sentry &nbsp;&nbsp;</span>Segment &nbsp;&nbsp;Android Studio &nbsp;&nbsp;Xcode<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Atom &nbsp;&nbsp;</span>vim</div>
           </div>
@@ -40,7 +40,7 @@
 
     <div class="overflow-x-hidden">
       <div class="projects container-inner mx-auto text-xl border-t border-gray-500 border-b py-16 mb-16 relative">
-        <h2 class="text-center text-xl md:text-2xl font-bold mb-6" id="projects">Here are some projects I've worked on:</h2>
+        <h2 class="text-center text-xl md:text-2xl font-bold mb-6" id="projects">Here are some projects I've worked on</h2>
 
         <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
@@ -57,7 +57,7 @@
           </li>
           <li class="checkmark mb-6">
             <div>Z-Connect</div>
-            <div class="text-lg text-gray-600">Whilst at <a href="https://zoetrope.io/">zoetrope.io</a> I majorly contributed towards the versatile Internet of Things platform Z-Connect that was used as the backbone for many IoT projects, with modular Python plugins and generic reusable React components for web and mobile apps. This project has been <a href="https://github.com/zconnect-iot">open sourced</a>.</div>
+            <div class="text-lg text-gray-600">Whilst at <a href="https://zoetrope.io/">zoetrope.io</a> I contributed towards the Internet of Things platform Z-Connect, this was the versatile backbone of many IoT projects, with modular Python plugins and reusable React components for both web and mobile apps. This project has been <a href="https://github.com/zconnect-iot">open sourced</a>.</div>
           </li>
           <li class="checkmark mb-6">
             <div>Hello-Novo</div>
@@ -65,7 +65,7 @@
           </li>
           <li class="checkmark mb-6">
             <div>Ping!</div>
-            <div class="text-lg text-gray-600">Technical lead on a news distribution system for the Centre for Community Journalism in which I developed a <a href="https://en-gb.wordpress.org/plugins/ping-news/">WordPress plugin</a> for hyperlocal journalists to submit their news story to the system via a Django Rest Framework API. See <a href="https://omni-digital.co.uk/case-studies/ping">here</a> for more information.</div>
+            <div class="text-lg text-gray-600">Technical lead on a news distribution system for the Centre for Community Journalism in which hyperlocal journalists submit news stories to the system via a Django Rest Framework API. This was integrated with a bespoke <a href="https://en-gb.wordpress.org/plugins/ping-news/">WordPress plugin</a> which required intricate interplay of PHP, HTML and JavaScript. See <a href="https://omni-digital.co.uk/case-studies/ping">here</a> for more information.</div>
           </li>
           <li class="checkmark mb-6">
             <div>mitchell-harle.dev</div>
@@ -77,7 +77,7 @@
 
     <div class="overflow-x-hidden">
       <div class="get-to-know-me container-inner mx-auto text-xl pb-16 relative">
-        <h2 class="text-center text-xl md:text-2xl font-bold mb-6" id="about">Get to know me:</h2>
+        <h2 class="text-center text-xl md:text-2xl font-bold mb-6" id="about">Get to know me</h2>
 
         <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
