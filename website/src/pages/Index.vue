@@ -33,7 +33,7 @@
           </div>
           <h2 class="font-bold mb-4 mt-4 text-gray-600">Dev Tools:</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
-            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">Ubuntu &nbsp;&nbsp;Git &nbsp;&nbsp;</span>GitHub &nbsp;&nbsp;GitLab &nbsp;&nbsp;Travis &nbsp;&nbsp;Jira &nbsp;&nbsp;Taiga<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Sentry &nbsp;&nbsp;</span>Segment &nbsp;&nbsp;Android Studio &nbsp;&nbsp;Xcode<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Atom &nbsp;&nbsp;</span>vim</div>
+            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">Ubuntu &nbsp;&nbsp;Git &nbsp;&nbsp;</span>GitHub &nbsp;&nbsp;GitLab &nbsp;&nbsp;Travis &nbsp;&nbsp;Jira &nbsp;&nbsp;Trello<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Sentry &nbsp;&nbsp;</span>Segment &nbsp;&nbsp;Android Studio &nbsp;&nbsp;Xcode<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Atom &nbsp;&nbsp;</span>vim</div>
           </div>
         </div> <!-- end tools -->
     </div>
@@ -49,7 +49,7 @@
         <ul class="text-lg sm:text-xl">
           <li class="checkmark mb-6">
             <div>Scan to Listen</div>
-            <div class="text-lg text-gray-600">This personal project is a React-Native mobile application with a Python backend for scanning the barcode of a book to find the matching audiobook, as well as CDs and vinyl to find the matching album on Spotify. Available on the <a href="https://play.google.com/store/apps/details?id=com.mitchellharle.scan_to_listen">Android Play Store</a> with over 150 active downloads. It's announcement became the top post of the week on <a href="https://www.reddit.com/r/reactjs/comments/eu416p/scan_to_listen_react_native_app_for_scanning_cds/">r/reactjs</a>.</div>
+            <div class="text-lg text-gray-600">This personal project is a React-Native mobile application with a Python backend for scanning the barcode of a book to find the matching audiobook, as well as CDs and vinyl to find the matching album on Spotify. Available on the <a href="https://play.google.com/store/apps/details?id=com.mitchellharle.scan_to_listen">Android Play Store</a> with over 150 active downloads. It's announcement became the top post of the week on <a href="https://www.reddit.com/r/reactjs/comments/eu416p/scan_to_listen_react_native_app_for_scanning_cds/">r/reactjs</a>. You can read more about it in this <a href="/scan-to-listen">blog post</a>.</div>
           </li>
           <li class="checkmark mb-6">
             <div>Django Identity and Access Managment System</div>
