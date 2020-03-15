@@ -53,7 +53,7 @@ One major limitation of the app is that a lot of records before the 1980s do not
 
 At the moment the app only supports the platforms Audible and Spotify, the app has been built in such a way that it is extendable to additional platforms such as Apple Music.
 
-Whilst this project has been very enjoyable and rewarding to work on, it of course would be nice for this to make a bit of money on the side. So far it has proved very tricky to mometize. Both the [Amazon Affiliate Program](https://affiliate-program.amazon.co.uk/) and the [Audible Affiliate Program](https://www.audible.com/ep/affiliate-intro) are unsuitable:
+Whilst this project has been very enjoyable and rewarding to work on, it of course would be nice for this to make a bit of money on the side. So far it has proved very tricky to monetize. Both the [Amazon Affiliate Program](https://affiliate-program.amazon.co.uk/) and the [Audible Affiliate Program](https://www.audible.com/ep/affiliate-intro) are unsuitable:
  - The Amazon program allows you to advertise specific product links however these will open Amazon in a browser rather than into the Audible app itself which would be a big strain on usability.
  - The Audible program have advertising links that deep link into Audible however they cannot be targeted towards a specific product, only deals or new sign-ups.
 
@@ -66,8 +66,8 @@ This leaves only a few imperfect options:
 If anyone has any other ideas for monetization I'm all ears, you can contact me [here](mailto:mitch_10_4@hotmail.com).
 
 ## Next Steps
-Currently the app has only been released on [Android Play Store](https://play.google.com/store/apps/details?id=com.mitchellharle.scan_to_listen), the most common user feedback was asking for it be released on iOS. Since it was written in React Native the same code can be used for iOS which means little to no extra development time. I develop on linux so the main problem is that unfortunately you still need to use a Mac and Xcode to deploy to the App Store as well as paying a $100 per year fee to become an Apple developer. I'm hoping to release an iOS version in the near future!
+Currently the app has only been released on [Android Play Store](https://play.google.com/store/apps/details?id=com.mitchellharle.scan_to_listen), the most common user feedback was asking for it be released on iOS. Since it was written in React Native the same code can be used for iOS which means little to no extra development time. I develop on Linux so the main problem is that unfortunately you still need to use a Mac and Xcode to deploy to the App Store as well as paying a $100 per year fee to become an Apple developer. I'm hoping to release an iOS version in the near future!
 
-I have a backlog of new feature ideas in a [Trello](https://trello.com/) board, including the ability to see YouTube music videos for the albums you have scanned and transfering scan history between devices. I'm hoping to be able to dedicate some more time to these in the near future.
+I have a backlog of new feature ideas in a [Trello](https://trello.com/) board, including the ability to see YouTube music videos for the albums you have scanned and transferring scan history between devices. I'm hoping to be able to dedicate some more time to these in the near future.
 
 Thanks for reading about Scan to Listen, if you're on Android please give it a [download](https://play.google.com/store/apps/details?id=com.mitchellharle.scan_to_listen) and [let me know what you think](mailto:mitch_10_4@hotmail.com), I'd love to hear you feedback!
