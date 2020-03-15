@@ -40,6 +40,11 @@ module.exports = {
             typeName: 'Tag',
             create: true
           }
+        },
+        remark: {
+          plugins: [
+            ['gridsome-plugin-remark-youtube']
+          ]
         }
       }
     },

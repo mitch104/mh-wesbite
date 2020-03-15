@@ -9,9 +9,7 @@ tags: ['React-Native', 'Expo', 'Bottle', 'Trello', 'Segment']
 Scan to Listen is the first personal project I have taken from conception all the way to production, it originally started out as an app for scanning the barcode of a physical book to find if there is a matching audiobook on [Audible](https://www.audible.co.uk/). Since then new features have evolved such as the ability to scan the barcode of CDs and vinyl to find the matching album on [Spotify](https://www.spotify.com) and generating barcodes to share your finds with other people that use the app. At the time of writing it has over 150 active downloads on the [Android Play Store](https://play.google.com/store/apps/details?id=com.mitchellharle.scan_to_listen).
 
 Here is a quick video of it in action:
-<figure class="video_container">
-<iframe width="750" height="422" src="https://www.youtube.com/embed/K03q3ejI3kA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</figure>
+`youtube:https://www.youtube.com/embed/K03q3ejI3kA`
 
 ## Motivation
 
