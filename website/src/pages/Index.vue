@@ -3,8 +3,8 @@
     <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16">
       <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
         <div class="leading-tight">Mitchell Harle</div>
-        <div class="text-green-700 leading-tight">Software Engineer</div>
-        <div class="font-medium text-lg">Bristol, UK</div>
+        <div class="text-green-700 leading-tight">Co-Founder and Software Engineer</div>
+        <div class="font-medium text-lg">Sheffield, UK</div>
       </div>
       <div class="mt-8 sm:mt-0">
         <img src="../../static/portrait_1.jpg" alt="hero" width=300 class="mx-auto sm:mx-0 border-6 border-green-700" />
@@ -12,7 +12,7 @@
     </div> <!-- end hero -->
 
     <div class="container-inner mx-auto">
-      <p class="text-lg sm:text-xl mb-16">Hello! I'm Mitch, a software engineer with over 5 years of experience and a first class Masters in Physics from Durham University. My expertise lies in Python and Django with some of my favourite projects using a React-Native frontend. I'm passionate about building great software, always looking to increase productivity and efficiency of the engineering team I am a part of without compromising on quality. TV data analytics, Internet of Things and news syndication are just a few of the domains I have applied my skills to.<br><br>Thanks for visiting my website, read on to find out more about me or check out my <a href="/blog">blog</a> to see what I've been sharing!</p>
+      <p class="text-lg sm:text-xl mb-16">Hello! I'm Mitch, Co-Founder of <a href="http://yeomatix.com">YeoMatix</a> and senior software engineer at <a href="http://uncommoncorrelation.co.uk">Uncommon Correlation</a> with a first class Masters in Physics from Durham University. My expertise lies in Python and Django with some of my favourite projects using a React-Native frontend. I'm passionate about building great software, always looking to increase productivity and efficiency of the engineering team I am a part of without compromising on quality. TV data analytics, Internet of Things and agriculture are just a few of the domains I have applied my skills to.<br><br>Thanks for visiting my website, read on to find out more about me or check out my <a href="/blog">blog</a> to see what I've been sharing!</p>
     </div>
 
     <div class="overflow-x-hidden">

@@ -7,6 +7,11 @@ To install node modules cd into `website` and run:
 npm i
 ```
 
+If you haven't done so before install the gridsome CLI:
+```
+npm install -g @gridsome/cli
+```
+
 To serve in development mode:
 ```
 gridsome develop
