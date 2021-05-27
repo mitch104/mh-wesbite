@@ -1,0 +1,117 @@
+---
+title: How to execute terminal commands with your voice on linux
+path: /execute-commands-with-voice
+date: 2020-05-28
+summary: Proof of concept use of the open source NLP tool 'voice2json' to execute arbitrary commands in a linux terminal
+tags: ['Bash', 'Linux', 'Ubuntu', 'AI', 'NLP', 'Open Source']
+---
+
+The open source NLP tool [voice2json](http://voice2json.org/) recently caught my eye on [Hacker News](https://news.ycombinator.com/item?id=27235970):
+ > voice2json is a collection of command-line tools for offline speech/intent recognition on Linux. It is free, open source (MIT), and supports 17 human languages.
+
+It got me thinking, how hard would it be use this tool to execute terminal commands with just your voice, it turns out... not very!
+
+## Installation
+
+See [docs](http://voice2json.org/install.html) for full details of voice2json installation instructions.
+
+On my first attempt I used the [Docker image](http://voice2json.org/install.html#docker-image) however I did encounter [this issue](https://github.com/synesthesiam/voice2json/issues/21) with audio input being picked up by Docker, so for a smoother on-boarding process I recommend using the [Debian package](http://voice2json.org/install.html#debian-package) which you can find in their [GitHub releases](https://github.com/synesthesiam/voice2json/releases).
+
+You will also need to [download a profile](http://voice2json.org/install.html#download-profile), for English I went for their recommendation of [Pocketsphinx](https://github.com/synesthesiam/en-us_pocketsphinx-cmu) which has served me well so far. Download the [.tar.gz file](https://github.com/synesthesiam/en-us_pocketsphinx-cmu/releases) and extract it to `$HOME/.config/voice2json`. This is essentially your trained offline machine learning model.
+
+## Basic usage
+
+First, you will need to run the command:
+```bash
+voice2json train-profile
+```
+which should only take a second or two.
+
+To check that everything's working run:
+```bash
+voice2json transcribe-stream --open
+```
+and this should transcribe your speech and output various related information in json format to `stdout`. Now, I have a Northern English accent so the transcriptions for me certainly weren't perfect, however the power comes from this tool when combining speech recognition with intent recognition.
+
+You can define a set of phrases which relate to a given 'intent', so "Turn on the living room lamp" might be mapped to the intent `ChangeLightState`. These intent mappings are defined in the file `$HOME/.config/voice2json/sentences.ini` and you can see an example [here](https://github.com/synesthesiam/en-us_pocketsphinx-cmu/blob/master/sentences.ini). For more details see [how it works](http://voice2json.org/#how-it-works).
+
+So the following command:
+```bash
+voice2json transcribe-stream | voice2json recognize-intent
+```
+will try to match your spoken words to the closest matching phrase and hence intent. I found that when using a hand full of phrases the tool was very good at finding the right intent, even with my accent!
+
+## How to execute commands
+Now that we've got the tool recognizing our intent from a set of possibilities how can we now use this to execute terminal commands?
+
+### Fifo named pipe
+First off, we need to make a fifo (first in first out) [named pipe](https://man7.org/linux/man-pages/man7/fifo.7.html), this will ultimately allow us to stream commands from one terminal to another. Let's create a pipe named `/tmp/mypipe` which will create a file in this location:
+```bash
+mkfifo /tmp/mypipe
+```
+
+### Decide your set of commands
+I started by choosing a few basic git commands, I saved the following to `$HOME/.config/voice2json/sentences.ini`:
+```
+[~/status.sh]
+status
+
+[~/fetch.sh]
+fetch
+
+[~/diff.sh]
+diff
+```
+which maps the speech "status", for example, to the intent `~/status.sh`, which is actually a file saved to my machine in this location which will be executed later.
+
+The three files to be executed are:
+ - `~/status.sh`
+```bash
+#!/bin/bash
+git status
+```
+ - `~/fetch.sh`
+```bash
+#!/bin/bash
+git fetch --verbose
+```
+ - `~/diff.sh`
+```bash
+#!/bin/bash
+git diff --exit-code
+```
+Ensure these files are executable by running `sudo chmod +x <file>` on each of them.
+
+### Command execution
+The following bash command will execute any lines that are written to the named pipe `/tmp/mypipe`, run this in a terminal within a git repository:
+```bash
+tail -f /tmp/mypipe | sh &
+```
+
+### Sending intent to named pipe
+Open a second terminal and run:
+```bash
+voice2json transcribe-stream | voice2json recognize-intent | (while read -r LINE; do echo "line is: $LINE"; echo "$LINE" | jq -r '.intent.name' > /tmp/mypipe; done;)
+```
+Effectively every time the voice2json tool recognizes an intent, the json blob is echoed to `stdout` but it is also piped to the `jq` tool which extracts the intent name, in this case the name of a file, and sends it to the named pipe `/tmp/mypipe`.
+
+What you should then see if you say the word "status", for example, is for the command `git status` to be ran in the first terminal!
+
+## Next steps
+Now that we've proved the concept of being able to execute a one line bash commands using only our voice, the concept easily extends to running python scripts, kicking off an [ansible](https://www.ansible.com/) deploy or whatever takes your fancy.
+
+This quick hack certainly isn't something you would want to rely on in a production environment. Voice2json does provide the ability to [publish intent recognition events](http://voice2json.org/commands.html#stream-events) via [MQTT](https://mqtt.org/) to a broker such as [Mosquitto](https://mosquitto.org/). A more robust solution would involve using an MQTT client to subscribe to these events in order to react to them. This can of course then extend your power into the realm of controlling IoT devices with your voice rather than just your terminal.
+
+This setup could be used as a productivity enhancer for developers if used in the right way. This got me thinking that it would be cool to execute IDE shortcuts using your voice, my IDE of choice is [VS Code](https://code.visualstudio.com/), I imagine I would have to write a VS Code plugin in order to for the IDE to be able to interact with the voice2json tool. Before, going down this rabbit hole any further I did a quick search of available VS Code extensions to see if a voice command plugin for VS Code already exists, that's when I found...
+
+## [Seranade.ai](https://serenade.ai/)
+Seranade claims to be:
+ > the most powerful way to program using natural speech. Boost your productivity by adding voice to your workflow.
+
+It takes the concept of software voice control and runs a mile with it, there are plugins for most popular IDEs and programming language support for Python, JavaScript, Java, C++, HTML and more. The execution of this is nothing short of professional, the [documentation](https://serenade.ai/docs/) is a good indicator for the quality of this product. Not only can you use it to write code with your voice within your IDE but you can change window focus and browse the web with voice commands using the [Chrome extension](https://serenade.ai/docs/chrome/).
+
+The free tier gives you pretty much everything other than data privacy. The on-boarding tutorial is really pleasant experience, and every tiny detail has been thought about. You can even write you own [custom voice commands](https://serenade.ai/docs/api/) or write your own [custom plugin](https://serenade.ai/docs/protocol/) that integrates with Seranade.
+
+It remains to be seen if I will integrate this into my day to day development workflow, at most I can see myself using it for a few shortcuts here and there as opposed to a throwing away my keyboard.
+
+If like me you now work from home, it's a little bit more acceptable to talk to your computer whilst you work, however my dog keeps thinking I have a ball to throw when shouting "git fetch" at my computer...
