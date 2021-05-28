@@ -690,7 +690,6 @@
     border: 0;
     font-size: 100%;
     margin: 0;
-    padding: 0;
     white-space: pre;
     word-break: normal;
   }
@@ -712,6 +711,8 @@
     line-height: 1;
     overflow: auto;
     padding: 12px;
+    margin-bottom: 24px;
+    color: #4c4f53;
   }
 
   .markdown-body pre code {
