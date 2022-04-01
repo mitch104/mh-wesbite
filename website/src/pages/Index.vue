@@ -21,7 +21,7 @@
         <div class="technlogies container-inner mx-auto text-xl leading-snug relative">
           <h2 class="font-bold mb-4 text-gray-600">Languages:</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
-            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl"><a href="/tag/Python/">Python</a> &nbsp;&nbsp;Javascript &nbsp;&nbsp;</span>SQL &nbsp;&nbsp;<a href="/tag/Bash/">Bash</a> &nbsp;&nbsp;PHP</div>
+            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl"><a href="/tag/Python/">Python</a> &nbsp;&nbsp;<a href="/tag/JavaScript/">Javascript</a> &nbsp;&nbsp;</span>SQL &nbsp;&nbsp;<a href="/tag/Bash/">Bash</a> &nbsp;&nbsp;PHP</div>
           </div>
           <h2 class="font-bold mb-4 mt-4 text-gray-600">Backend Tech:</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
@@ -29,7 +29,7 @@
           </div>
           <h2 class="font-bold mb-4 mt-4 text-gray-600">Frontend Tech:</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
-            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">HTML &nbsp;&nbsp;</span>CSS &nbsp;&nbsp;React &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl"><a href="/tag/React-Native/">React-Native</a> &nbsp;&nbsp;</span>Expo<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Redux &nbsp;&nbsp;</span>Redux-Saga &nbsp;&nbsp;reselect &nbsp;&nbsp;JSX<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;ES6 &nbsp;&nbsp;</span>Immutable.js<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;npm &nbsp;&nbsp;</span>eslint &nbsp;&nbsp;Gridsome &nbsp;&nbsp;WordPress<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;<a href="/tag/Appium/">Appium</a> &nbsp;&nbsp;</span>Selenium</div>
+            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">HTML &nbsp;&nbsp;</span>CSS &nbsp;&nbsp;React &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl"><a href="/tag/React-Native/">React-Native</a> &nbsp;&nbsp;</span>Expo<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Redux &nbsp;&nbsp;</span>Redux-Saga &nbsp;&nbsp;reselect <span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;ES6 &nbsp;&nbsp;</span>Immutable.js<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;<a href="/tag/D3/">D3</a> &nbsp;&nbsp;npm &nbsp;&nbsp;</span>eslint &nbsp;&nbsp;Gridsome &nbsp;&nbsp;WordPress<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;<a href="/tag/Appium/">Appium</a> &nbsp;&nbsp;</span>Selenium</div>
           </div>
           <h2 class="font-bold mb-4 mt-4 text-gray-600">Dev Tools:</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
