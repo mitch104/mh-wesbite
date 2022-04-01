@@ -7,15 +7,6 @@ import VueFuse from 'vue-fuse'
 
 
 export default function (Vue, { router, head, isClient }) {
-  head.script.push({
-    src: 'https://www.googletagmanager.com/gtag/js?id=UA-159413433-1',
-    async: true
-  })
-
-  head.script.push({
-    src: '/google-analytics.js'
-  })
-
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
 
@@ -35,7 +26,7 @@ export default function (Vue, { router, head, isClient }) {
 
   head.meta.push({
     name: 'description',
-    content: 'Peronsal website for Bristol software engineer Mitchell Harle'
+    content: 'Personal website for founder and software engineer Mitchell Harle'
   })
 
   head.meta.push({
