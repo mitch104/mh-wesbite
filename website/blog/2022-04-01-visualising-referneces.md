@@ -16,45 +16,45 @@ CyBOK references roughly 2000 other resources, such as papers, books and website
 
 I will take you through a guided demonstration to display the features of this application:
 
-![CyBOK reference graph](./images/cybok-graph-1.png)
+![CyBOK reference graph 1](./images/cybok-graph-1.png)
 
 On arriving at the [interactive graph](https://cybok.uncommoncorrelation.co.uk/) you will be greeted by a force directed graph showing the relationships between the green CyBOK root node and the 21 blue knowledge area nodes.
 
-![CyBOK reference graph](./images/cybok-demo-1.gif)
+![CyBOK demo 1](./images/cybok-demo-1.gif)
 
 By selecting one of these knowledge areas, such as '[Malware and Attack Technologies](https://cybok.uncommoncorrelation.co.uk/?id=CyBOK&id=Malware+and+Attack+Technologies)' and adding this as a search term you expose the 96 references within this knowledge area, which can also be seen in tabular form below.
 
-![CyBOK reference graph](./images/cybok-demo-2.gif)
+![CyBOK demo 2](./images/cybok-demo-2.gif)
 
 Maybe the paper '[Polymorphic Blending Attacks](https://cybok.uncommoncorrelation.co.uk/?id=Polymorphic+blending+attacks)' catches your eye, you can click this item in the table to replace all current search terms with this one. This reveals the 5 authors that contributed to this paper.
 
 Now you can ask some more interesting questions! Maybe you have read this paper and want to see what other papers these authors have written that have appeared CyBOK...
 
-![CyBOK reference graph](./images/cybok-demo-3.gif)
+![CyBOK demo 3](./images/cybok-demo-3.gif)
 
 If you select all of these authors and add these to the search we can see there are many other references they have appeared in, as well as across 4 different knowledge areas.
 
 ### Side menu
 
-![CyBOK reference graph](./images/cybok-demo-4.gif)
+![CyBOK demo 4](./images/cybok-demo-4.gif)
 
 If you are only interested in a subset of knowledge areas you can include or exclude knowledge areas using the 'Filter by Knowledge Area' side menu. Once you've selected the knowledge areas you're interested in you can hide away the side menu and continue with your exploration.
 
 ### Search bar
 
-![CyBOK reference graph](./images/cybok-demo-5.gif)
+![CyBOK demo 5](./images/cybok-demo-5.gif)
 
 If there is a resource or author you already know the name of you can use the search bar, for example you could search for '[Rashid](https://cybok.uncommoncorrelation.co.uk/?id=A.+Rashid)', you'll see that as I type partial matches will appear in the dropdown underneath.
 
 ### Mobile Responsiveness
 
-![CyBOK reference graph](./images/cybok-demo-6.gif)
+![CyBOK demo 6](./images/cybok-demo-6.gif)
 
 The styles of the web page have been made responsive such that it is still suitable for mobile devices. If you reduce the screen size the search box moves below the graph.
 
 ### Information modals
 
-![CyBOK reference graph](./images/cybok-demo-7.gif)
+![CyBOK demo 7](./images/cybok-demo-7.gif)
 
 There are various 'i' icons where if clicked, they reveal a modal with information to help you with the functionality.
 
