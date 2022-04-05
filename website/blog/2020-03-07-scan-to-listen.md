@@ -63,11 +63,11 @@ This leaves only a few imperfect options:
  - Have a paid premium version which provides extra functionality, this would require more time investment for further development.
  - In app advertisements, this is my last resort as the app will reduce the user satisfaction and would need to increase it's user base by a large amount to be effective.
 
-If anyone has any other ideas for monetization I'm all ears, you can contact me [here](mailto:mitch_10_4@hotmail.com).
+If anyone has any other ideas for monetization I'm all ears, you can contact me [here](mailto:mitch104@protonmail.com).
 
 ## Next Steps
 Currently the app has only been released on [Android Play Store](https://play.google.com/store/apps/details?id=com.mitchellharle.scan_to_listen), the most common user feedback was asking for it be released on iOS. Since it was written in React Native the same code can be used for iOS which means little to no extra development time. I develop on Linux so the main problem is that unfortunately you still need to use a Mac and Xcode to deploy to the App Store as well as paying a $100 per year fee to become an Apple developer. I'm hoping to release an iOS version in the near future!
 
 I have a backlog of new feature ideas in a [Trello](https://trello.com/) board, including the ability to see YouTube music videos for the albums you have scanned and transferring scan history between devices. I'm hoping to be able to dedicate some more time to these in the near future.
 
-Thanks for reading about Scan to Listen, if you're on Android please give it a [download](https://play.google.com/store/apps/details?id=com.mitchellharle.scan_to_listen) and [let me know what you think](mailto:mitch_10_4@hotmail.com), I'd love to hear you feedback!
+Thanks for reading about Scan to Listen, if you're on Android please give it a [download](https://play.google.com/store/apps/details?id=com.mitchellharle.scan_to_listen) and [let me know what you think](mailto:mitch104@protonmail.com), I'd love to hear you feedback!
