@@ -32,12 +32,12 @@ gridsome develop
 The site is served on GitHub pages, https://mitch104.github.io, but redirects to https://mitchell-harle.dev.
 
 To test a build before deploying cd into `website` and run:
-```
+```bash
 npm run build
 ```
 This will generate the static files in `website/dist`.
 
 To deploy run the following command:
-```
+```bash
 npm run deploy
 ```
