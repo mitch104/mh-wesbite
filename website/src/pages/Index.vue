@@ -3,7 +3,7 @@
     <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16">
       <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
         <div class="leading-tight">Mitchell Harle</div>
-        <div class="text-green-700 leading-tight">Co-Founder and Software Engineer</div>
+        <div class="text-green-700 leading-tight">Software Engineer</div>
         <div class="font-medium text-lg">Sheffield, UK</div>
       </div>
       <div class="mt-8 sm:mt-0">
@@ -12,7 +12,7 @@
     </div> <!-- end hero -->
 
     <div class="container-inner mx-auto">
-      <p class="text-lg sm:text-xl mb-16">Hello! I'm Mitch, Co-Founder of <a href="https://toccatadatagovernance.com/">Toccata Data Governance</a> and YeoMatix, lead software engineer at <a href="http://uncommoncorrelation.co.uk">Uncommon Correlation</a>, with a first class Masters in Physics from Durham University. My expertise lies in Python and Django with some of my favourite projects using a React-Native frontend. I'm passionate about building great software, always looking to increase productivity and efficiency of the engineering team I am a part of without compromising on quality. TV data analytics, Internet of Things and agriculture are just a few of the domains I have applied my skills to.<br><br>Thanks for visiting my website, read on to find out more about me or check out my <a href="/blog">blog</a> to see what I've been sharing!</p>
+      <p class="text-lg sm:text-xl mb-16">Welcome! I'm Mitch, a free-lance software engineer with a strong background in Python and Django. I received my first class Masters in Physics from Durham University and have since co-founded <a href="https://toccatadatagovernance.com/">Toccata Data Governance</a> and YeoMatix. I have a passion for creating high-quality software and improving the productivity and efficiency of engineering teams. I have experience in a variety of domains including medicial technology, Internet of Things, and agriculture.<br><br>Feel free to browse my website to learn more about my work or check out my <a href="/blog">blog</a> to see what I have been sharing. Thank you for visiting!</p>
     </div>
 
     <div class="overflow-x-hidden">
@@ -25,11 +25,11 @@
           </div>
           <h2 class="font-bold mb-4 mt-4 text-gray-600">Backend Tech:</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
-            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">Django &nbsp;&nbsp;DRF &nbsp;&nbsp;Postgres &nbsp;&nbsp;</span>MongoDB<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;<a href="/tag/Docker/">Docker</a> &nbsp;&nbsp;</span>Wagtail &nbsp;&nbsp;Strapi<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Redis &nbsp;&nbsp;</span>Celery &nbsp;&nbsp;Bottle &nbsp;&nbsp;OpenAPI &nbsp;&nbsp;Scrapy &nbsp;&nbsp;Matplotlib<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;PyTest &nbsp;&nbsp;</span>Pipenv<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Ansible &nbsp;&nbsp;Digital Ocean &nbsp;&nbsp;</span>AWS</div>
+            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">Django &nbsp;&nbsp;DRF &nbsp;&nbsp;Postgres &nbsp;&nbsp;</span>MongoDB<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;<a href="/tag/Docker/">Docker</a> &nbsp;&nbsp;</span>Wagtail &nbsp;&nbsp;Strapi<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Redis &nbsp;&nbsp;</span>Celery &nbsp;&nbsp;Flask &nbsp;&nbsp;OpenAPI &nbsp;&nbsp;Scrapy &nbsp;&nbsp;Matplotlib<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;PyTest &nbsp;&nbsp;</span>Pipenv<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Ansible &nbsp;&nbsp;Digital Ocean &nbsp;&nbsp;</span>AWS</div>
           </div>
           <h2 class="font-bold mb-4 mt-4 text-gray-600">Frontend Tech:</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
-            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">HTML &nbsp;&nbsp;</span>CSS &nbsp;&nbsp;React &nbsp;&nbsp;<span class="font-medium text-3xl md:text-4xl"><a href="/tag/React-Native/">React-Native</a> &nbsp;&nbsp;</span>Expo<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Redux &nbsp;&nbsp;</span>Redux-Saga &nbsp;&nbsp;reselect <span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;ES6 &nbsp;&nbsp;</span>Immutable.js<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;<a href="/tag/D3/">D3</a> &nbsp;&nbsp;npm &nbsp;&nbsp;</span>eslint &nbsp;&nbsp;Gridsome &nbsp;&nbsp;WordPress<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;<a href="/tag/Appium/">Appium</a> &nbsp;&nbsp;</span>Selenium</div>
+            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">HTML &nbsp;&nbsp;</span>CSS &nbsp;&nbsp;React<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;<a href="/tag/React-Native/">React-Native</a> &nbsp;&nbsp;</span>Expo<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Redux &nbsp;&nbsp;</span>Redux-Saga &nbsp;&nbsp;reselect &nbsp;&nbsp;ES6<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;<a href="/tag/D3/">D3</a> &nbsp;&nbsp;<a href="/tag/P5.js/">P5.js</a> &nbsp;&nbsp;HMTX &nbsp;&nbsp;</span>Bootstrap &nbsp;&nbsp;npm &nbsp;&nbsp;Gridsome <span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;<a href="/tag/Appium/">Appium</a> &nbsp;&nbsp;</span>Selenium  &nbsp;&nbsp;Playwright</div>
           </div>
           <h2 class="font-bold mb-4 mt-4 text-gray-600">Dev Tools:</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
@@ -49,11 +49,11 @@
         <ul class="text-lg sm:text-xl">
           <li class="checkmark mb-6">
             <div>Scan to Listen</div>
-            <div class="text-lg text-gray-600">This personal project is a React-Native mobile application with a Python backend for scanning the barcode of a book to find the matching audiobook, as well as CDs and vinyl to find the matching album on Spotify. It was available on the Android Play Store for 3 years with hundreds of active downloads. It's announcement became the top post of the week on <a href="https://www.reddit.com/r/reactjs/comments/eu416p/scan_to_listen_react_native_app_for_scanning_cds/">r/reactjs</a>. You can read more about it in this <a href="/scan-to-listen">blog post</a>.</div>
+            <div class="text-lg text-gray-600">'Scan to Listen' is a personal project I built with React-Native and Python. The mobile application allows users to scan the barcode of a book to find the corresponding audiobook, as well as CDs and vinyl to find the matching album on Spotify. The app was available on the Android Play Store for three years and received hundreds of active downloads. It also featured as the top post of the week on <a href="https://www.reddit.com/r/reactjs/comments/eu416p/scan_to_listen_react_native_app_for_scanning_cds/">r/reactjs</a>. You can read more about the project in this <a href="/scan-to-listen">blog post</a>.</div>
           </li>
           <li class="checkmark mb-6">
             <div>Django Identity and Access Managment System</div>
-            <div class="text-lg text-gray-600">Designed and implemented a novel cookie based authentication mechanism where a user can seamlessly Single-Sign-On to multiple Django applications that are hosted on the same sub-domain, providing a centralised area in which user access privledges can be managed. This project was completed within 7 weeks.</div>
+            <div class="text-lg text-gray-600">I designed and implemented a unique cookie-based authentication system for Django applications hosted on the same sub-domain. This system allows users to easily Single-Sign-On to multiple applications, centralizing access management in one place. This project was completed within seven weeks.</div>
           </li>
           <li class="checkmark mb-6">
             <div>Z-Connect</div>
@@ -61,7 +61,7 @@
           </li>
           <li class="checkmark mb-6">
             <div>Hello-Novo</div>
-            <div class="text-lg text-gray-600">Working with e-on as a client, I helped build an air conditioning control system built on top of Z-Connect. This included the creation of a hardware-in-loop testing system for an IoT gateway, infrared device, cloud software and mobile app. This automatically tested the user setup process, simulating user input with 'Appium', greatly reducing manual testing and increasing reliability of the product. You can find a blog post I wrote on the topic <a href="/iot-testing">here</a>.</div>
+            <div class="text-lg text-gray-600">While working with e-on as a client, I worked within a team of four to develop an air conditioning control system. This project included the creation of a hardware-in-loop testing system for an IoT gateway, infrared device, cloud software, and mobile app. The testing system used 'Appium' to simulate user input and automatically test the user setup process, reducing the need for manual testing and improving the reliability of the product. You can find more information about this project in the <a href="/iot-testing">blog post</a> I wrote on the topic.</div>
           </li>
           <li class="checkmark mb-6">
             <div>Ping!</div>
