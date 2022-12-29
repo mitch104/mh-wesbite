@@ -12,7 +12,7 @@
     </div> <!-- end hero -->
 
     <div class="container-inner mx-auto">
-      <p class="text-lg sm:text-xl mb-16">Hello! I'm Mitch, Co-Founder of <a href="http://yeomatix.com">YeoMatix</a> and <a href="https://toccatadatagovernance.com/">Toccata</a> lead software engineer at <a href="http://uncommoncorrelation.co.uk">Uncommon Correlation</a> with a first class Masters in Physics from Durham University. My expertise lies in Python and Django with some of my favourite projects using a React-Native frontend. I'm passionate about building great software, always looking to increase productivity and efficiency of the engineering team I am a part of without compromising on quality. TV data analytics, Internet of Things and agriculture are just a few of the domains I have applied my skills to.<br><br>Thanks for visiting my website, read on to find out more about me or check out my <a href="/blog">blog</a> to see what I've been sharing!</p>
+      <p class="text-lg sm:text-xl mb-16">Hello! I'm Mitch, Co-Founder of <a href="https://toccatadatagovernance.com/">Toccata Data Governance</a> and YeoMatix, lead software engineer at <a href="http://uncommoncorrelation.co.uk">Uncommon Correlation</a>, with a first class Masters in Physics from Durham University. My expertise lies in Python and Django with some of my favourite projects using a React-Native frontend. I'm passionate about building great software, always looking to increase productivity and efficiency of the engineering team I am a part of without compromising on quality. TV data analytics, Internet of Things and agriculture are just a few of the domains I have applied my skills to.<br><br>Thanks for visiting my website, read on to find out more about me or check out my <a href="/blog">blog</a> to see what I've been sharing!</p>
     </div>
 
     <div class="overflow-x-hidden">
@@ -49,7 +49,7 @@
         <ul class="text-lg sm:text-xl">
           <li class="checkmark mb-6">
             <div>Scan to Listen</div>
-            <div class="text-lg text-gray-600">This personal project is a React-Native mobile application with a Python backend for scanning the barcode of a book to find the matching audiobook, as well as CDs and vinyl to find the matching album on Spotify. Available on the <a href="https://play.google.com/store/apps/details?id=com.mitchellharle.scan_to_listen">Android Play Store</a> with over 150 active downloads. It's announcement became the top post of the week on <a href="https://www.reddit.com/r/reactjs/comments/eu416p/scan_to_listen_react_native_app_for_scanning_cds/">r/reactjs</a>. You can read more about it in this <a href="/scan-to-listen">blog post</a>.</div>
+            <div class="text-lg text-gray-600">This personal project is a React-Native mobile application with a Python backend for scanning the barcode of a book to find the matching audiobook, as well as CDs and vinyl to find the matching album on Spotify. It was available on the Android Play Store for 3 years with hundreds of active downloads. It's announcement became the top post of the week on <a href="https://www.reddit.com/r/reactjs/comments/eu416p/scan_to_listen_react_native_app_for_scanning_cds/">r/reactjs</a>. You can read more about it in this <a href="/scan-to-listen">blog post</a>.</div>
           </li>
           <li class="checkmark mb-6">
             <div>Django Identity and Access Managment System</div>
@@ -65,7 +65,7 @@
           </li>
           <li class="checkmark mb-6">
             <div>Ping!</div>
-            <div class="text-lg text-gray-600">Technical lead on a news distribution system for the Centre for Community Journalism in which hyperlocal journalists submit news stories to the system via a Django Rest Framework API. This was integrated with a bespoke <a href="https://en-gb.wordpress.org/plugins/ping-news/">WordPress plugin</a> which required intricate interplay of PHP, HTML and JavaScript. See <a href="https://omni-digital.co.uk/case-studies/ping">here</a> for more information.</div>
+            <div class="text-lg text-gray-600">Technical lead on a news distribution system for the Centre for Community Journalism in which hyperlocal journalists submit news stories to the system via a Django Rest Framework API. This was integrated with a bespoke <a href="https://en-gb.wordpress.org/plugins/ping-news/">WordPress plugin</a> which required intricate interplay of PHP, HTML and JavaScript. See <a href="https://omni-digital.co.uk/our-work/web-applications/google-digital-news-inititative-ping/">here</a> for more information.</div>
           </li>
           <li class="checkmark mb-6">
             <div>mitchell-harle.dev</div>
