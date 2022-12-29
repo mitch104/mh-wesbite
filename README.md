@@ -2,18 +2,29 @@
 This repo is the source code for Mitchell Harle's [personal website](https://mitchell-harle.dev). This has been built with Gridsome and Tailwind CSS.
 
 ## Development
-To install node modules cd into `website` and run:
+Change directory:
+
+```bash
+cd website
 ```
+
+Make sure you are using node version 16:
+```bash
+nvm use 16
+```
+
+Install node modules:
+```bash
 npm i
 ```
 
 If you haven't done so before install the gridsome CLI:
-```
+```bash
 npm install -g @gridsome/cli
 ```
 
 To serve in development mode:
-```
+```bash
 gridsome develop
 ```
 
