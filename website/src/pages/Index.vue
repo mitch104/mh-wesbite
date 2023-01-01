@@ -12,7 +12,7 @@
     </div> <!-- end hero -->
 
     <div class="container-inner mx-auto">
-      <p class="text-lg sm:text-xl mb-16">Welcome! I'm Mitch, a free-lance software engineer with a strong background in Python and Django. I received my first class Masters in Physics from Durham University and have since co-founded <a href="https://toccatadatagovernance.com/">Toccata Data Governance</a> and YeoMatix. I have a passion for creating high-quality software and improving the productivity and efficiency of engineering teams. I have experience in a variety of domains including medicial technology, Internet of Things, and agriculture.<br><br>Feel free to browse my website to learn more about my work or check out my <a href="/blog">blog</a> to see what I have been sharing. Thank you for visiting!</p>
+      <p class="text-lg sm:text-xl mb-16">Welcome! I'm Mitch, a freelance software engineer with a strong background in Python and Django. I received my first class Masters in Physics from Durham University and have since co-founded <a href="https://toccatadatagovernance.com/">Toccata Data Governance</a> and YeoMatix. I have a passion for creating high-quality software and improving the productivity and efficiency of engineering teams. I have experience in a variety of domains including medicial technology, Internet of Things, and agriculture.<br><br>Feel free to browse my website to learn more about my work or check out my <a href="/blog">blog</a> to see what I have been sharing. Thank you for visiting!</p>
     </div>
 
     <div class="overflow-x-hidden">
