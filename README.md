@@ -8,8 +8,16 @@ Change directory:
 cd website
 ```
 
+Mac prerequisites:
+```bash
+brew install python-setuptools
+brew install vips
+```
+
+
 Make sure you are using node version 16:
 ```bash
+nvm install 16
 nvm use 16
 ```
 
