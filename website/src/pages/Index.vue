@@ -51,7 +51,7 @@
         <ul class="text-lg sm:text-xl">
           <li class="checkmark mb-6">
             <div>Pivio Platform</div>
-            <div class="text-lg text-gray-600">I was head of <a href="https://app.pv0.one">Platform</a> development at <a href="https://pv0.one">PV01</a>, a Django application which deployed bonds to Ethereum blockchains, with a UI for investors. At the heart was an event driven system to process blockchain events, updating data in a Postgres database and reflected in real time to end users via HTMX. To increase release frequency and application robustness I created an E2E test suite with Playwright, testing the whole bond lifecycle including investments via MetaMask.</div>
+            <div class="text-lg text-gray-600">At <a href="https://pv0.one">PV01</a> I was head of development of <a href="https://app.pv0.one">Pivio</a>, a Django application which deployed bonds to Ethereum blockchains, with a UI for investors. At the heart was an event driven system to process blockchain events, updating data in a Postgres database and reflected in real time to end users via HTMX. To increase release frequency and application robustness I created an E2E test suite with Playwright, testing the whole bond lifecycle including interactions with MetaMask.</div>
           </li>
           <li class="checkmark mb-6">
             <div>Scan to Listen</div>
