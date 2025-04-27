@@ -7,12 +7,14 @@
         <div class="font-medium text-lg">Sheffield, UK</div>
       </div>
       <div class="mt-8 sm:mt-0">
-        <img src="../../static/portrait_1.jpg" alt="hero" width=300 class="mx-auto sm:mx-0 border-6 border-green-700" />
+        </div>
+            <img src="../../static/portrait_1.png" alt="hero" width=280 class="mx-auto sm:mx-0 border-6 border-green-700 rounded-full relative -left-[50px]" />
+        </div>
       </div>
     </div> <!-- end hero -->
 
     <div class="container-inner mx-auto">
-      <p class="text-lg sm:text-xl mb-16">Welcome! I'm Mitch, a freelance software engineer with a strong background in Python and Django. I received my first class Masters in Physics from Durham University and have since co-founded <a href="https://toccatadatagovernance.com/">Toccata Data Governance</a> and YeoMatix. I have a passion for creating high-quality software and improving the productivity and efficiency of engineering teams. I have experience in a variety of domains including medicial technology, Internet of Things, and agriculture.<br><br>Feel free to browse my website to learn more about my work or check out my <a href="/blog">blog</a> to see what I have been sharing. Thank you for visiting!</p>
+      <p class="text-lg sm:text-xl mb-16">Welcome! I'm Mitch, a freelance software engineer with expertise in Python and Django. I have a passion for creating high-quality software and improving the productivity of engineering teams I'm a part of. I have experience in a diverse range of domains including blockhain finance, medicial-tech, Internet of Things, and agriculture.<br><br>Feel free to browse my website to learn more about my work or check out my <a href="/blog">blog</a> to see what I have been sharing. Thank you for visiting!</p>
     </div>
 
     <div class="overflow-x-hidden">
@@ -21,19 +23,19 @@
         <div class="technlogies container-inner mx-auto text-xl leading-snug relative">
           <h2 class="font-bold mb-4 text-gray-600">Languages:</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
-            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl"><a href="/tag/Python/">Python</a> &nbsp;&nbsp;<a href="/tag/JavaScript/">Javascript</a> &nbsp;&nbsp;</span>SQL &nbsp;&nbsp;<a href="/tag/Bash/">Bash</a> &nbsp;&nbsp;PHP</div>
+            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl"><a href="/tag/Python/">Python</a> &nbsp;&nbsp;<a href="/tag/JavaScript/">Javascript</a> &nbsp;&nbsp;</span>SQL &nbsp;&nbsp;<a href="/tag/Bash/">Bash</a></div>
           </div>
           <h2 class="font-bold mb-4 mt-4 text-gray-600">Backend Tech:</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
-            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">Django &nbsp;&nbsp;DRF &nbsp;&nbsp;Postgres &nbsp;&nbsp;</span>MongoDB<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;<a href="/tag/Docker/">Docker</a> &nbsp;&nbsp;</span>Wagtail &nbsp;&nbsp;Strapi<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Redis &nbsp;&nbsp;</span>Celery &nbsp;&nbsp;Flask &nbsp;&nbsp;OpenAPI &nbsp;&nbsp;Scrapy &nbsp;&nbsp;Matplotlib<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;PyTest &nbsp;&nbsp;</span>Pipenv<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Ansible &nbsp;&nbsp;Digital Ocean &nbsp;&nbsp;</span>AWS</div>
+            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">Django &nbsp;&nbsp;DRF &nbsp;&nbsp;Postgres &nbsp;&nbsp;</span>MongoDB<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;<a href="/tag/Docker/">Docker</a> &nbsp;&nbsp;</span><span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Redis &nbsp;&nbsp;</span>Celery &nbsp;&nbsp;Flask &nbsp;&nbsp;FastAPI &nbsp;&nbsp;Scrapy<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;PyTest &nbsp;&nbsp;</span>Ruff  &nbsp;&nbsp;Mypy<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Ansible &nbsp;&nbsp;Terraform &nbsp;&nbsp;Digital Ocean &nbsp;&nbsp;</span>AWS</div>
           </div>
           <h2 class="font-bold mb-4 mt-4 text-gray-600">Frontend Tech:</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
-            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">HTML &nbsp;&nbsp;</span>CSS &nbsp;&nbsp;React<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;<a href="/tag/React-Native/">React-Native</a> &nbsp;&nbsp;</span>Expo<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Redux &nbsp;&nbsp;</span>Redux-Saga &nbsp;&nbsp;reselect &nbsp;&nbsp;ES6<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;<a href="/tag/D3/">D3</a> &nbsp;&nbsp;<a href="/tag/P5.js/">P5.js</a> &nbsp;&nbsp;HMTX &nbsp;&nbsp;</span>Bootstrap &nbsp;&nbsp;npm &nbsp;&nbsp;Gridsome <span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;<a href="/tag/Appium/">Appium</a> &nbsp;&nbsp;</span>Selenium  &nbsp;&nbsp;Playwright</div>
+            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">HTML &nbsp;&nbsp;</span>CSS &nbsp;&nbsp;React<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;<a href="/tag/React-Native/">React-Native</a> &nbsp;&nbsp;</span>Expo<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Redux &nbsp;&nbsp;</span><span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;<a href="/tag/D3/">D3</a> &nbsp;&nbsp;<a href="/tag/P5.js/">P5.js</a> &nbsp;&nbsp;HMTX &nbsp;&nbsp;</span>Bootstrap &nbsp;&nbsp;Tailwind &nbsp;&nbsp;Gridsome <span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;<a href="/tag/Appium/">Appium</a> &nbsp;&nbsp;</span>Selenium  &nbsp;&nbsp;Playwright</div>
           </div>
           <h2 class="font-bold mb-4 mt-4 text-gray-600">Dev Tools:</h2>
           <div class="flex flex-col sm:flex-row justify-between items-center">
-            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">Ubuntu &nbsp;&nbsp;Git &nbsp;&nbsp;</span>GitHub &nbsp;&nbsp;GitLab &nbsp;&nbsp;Travis &nbsp;&nbsp;Jira &nbsp;&nbsp;Trello<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Sentry &nbsp;&nbsp;</span>Segment <span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;VS Code &nbsp;&nbsp;</span>Atom &nbsp;&nbsp;vim</div>
+            <div class="flex-1 text-lg text-center md:text-xl"><span class="font-medium text-3xl md:text-4xl">Ubuntu &nbsp;&nbsp;Git &nbsp;&nbsp;</span>GitHub &nbsp;&nbsp;GitLab &nbsp;&nbsp;Travis &nbsp;&nbsp;Jira &nbsp;&nbsp;Trello<span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;Sentry &nbsp;&nbsp;</span>Grafana &nbsp;&nbsp;Segment <span class="font-medium text-3xl md:text-4xl"> &nbsp;&nbsp;VS Code &nbsp;&nbsp;</span>Copilot  &nbsp;&nbsp;Cursor &nbsp;&nbsp;vim</div>
           </div>
         </div> <!-- end tools -->
     </div>
@@ -47,6 +49,10 @@
         </div>
 
         <ul class="text-lg sm:text-xl">
+          <li class="checkmark mb-6">
+            <div>Pivio Platform</div>
+            <div class="text-lg text-gray-600">I was head of <a href="https://app.pv0.one">Platform</a> development at <a href="https://pv0.one">PV01</a>, a Django application which deployed bonds to Ethereum blockchains, with a UI for investors. At the heart was an event driven system to process blockchain events, updating data in a Postgres database and reflected in real time to end users via HTMX. To increase release frequency and application robustness I created an E2E test suite with Playwright, testing the whole bond lifecycle including investments via MetaMask.</div>
+          </li>
           <li class="checkmark mb-6">
             <div>Scan to Listen</div>
             <div class="text-lg text-gray-600">'Scan to Listen' is a personal project I built with React-Native and Python. The mobile application allows users to scan the barcode of a book to find the corresponding audiobook, as well as CDs and vinyl to find the matching album on Spotify. The app was available on the Android Play Store for three years and received hundreds of active downloads. It also featured as the top post of the week on <a href="https://www.reddit.com/r/reactjs/comments/eu416p/scan_to_listen_react_native_app_for_scanning_cds/">r/reactjs</a>. You can read more about the project in this <a href="/scan-to-listen">blog post</a>.</div>
@@ -87,9 +93,10 @@
           <div><g-image src="../../static/skate.jpg" alt="avatar" class="w-32 h-32 md:w-48 md:h-48 rounded-full mb-8 lg:mb-0 border-6 border-green-700" /></div>
           <div class="flex-1 text-lg sm:text-xl ml-6 md:ml-8">
             <ul class="list-disc">
-              <li>Skateboarding has been as a hobby of mine since 2001, I've competed in numerous competitions as well as filming and editing many skateboarding videos in Adobe Premier Pro.</li>
-              <li>Avid audiobook and podcast listener, mostly non-fiction with a keen interest in the future of technology, with favourites such as <a href="https://www.audible.co.uk/pd/Superintelligence-Audiobook/B00LPMA33G">Superintelligence</a> and <a href="https://www.audible.co.uk/pd/Rise-of-the-Robots-Audiobook/B01CGURY8C">The Rise of the Robots</a>.</li>
-              <li>I like to keep fit and go to the gym 4 to 5 times a week, I've ran in the Bristol 10k twice, enjoy cycling and helped fund raise for Byers Green Amateur Boxing Club.</li>
+              <li>Skateboarding has been as a hobby of mine since 2001, filmed and edited many skateboarding videos in Adobe Premier Pro.</li>
+              <li>I DJ for fun and produce music with Ableton.</li>
+              <li>Avid audiobook and podcast listener, with a keen interest in the future of technology, with favourites such as <a href="https://www.audible.co.uk/pd/Superintelligence-Audiobook/B00LPMA33G">Superintelligence</a> and <a href="https://www.audible.co.uk/pd/Rise-of-the-Robots-Audiobook/B01CGURY8C">The Rise of the Robots</a>.</li>
+              <li>I like to keep fit and go to the gym, enjoy cycling and helped fund raise for Byers Green Amateur Boxing Club.</li>
             </ul>
             <br>If you wish to connect please find my channels below.</div>
         </div>
