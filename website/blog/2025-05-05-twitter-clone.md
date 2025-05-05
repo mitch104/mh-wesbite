@@ -32,13 +32,13 @@ I decided to spend additional time refining the codebase with Cursor, asking it 
 
 I also started expanding the feature set—adding Celery and Redis for asynchronous tasks like sending emails when a user's tweet is retweeted, and integrating [HTMX](https://htmx.org/) for interactivity (such as infinite scrolling) instead of relying on vanilla JavaScript. The final result was solid.
 
-The codebase can be found [here](https://github.com/mitch104/twitter-clone). Overall, I was impressed by Cursor, though it wasn't without its hiccups and occasional rabbit holes. I spent around 10 hours on the project, what could have taken me 50/60 hours manually. Interestingly, while both tools used the same underlying model (Claude 3.7), Cursor made fewer mistakes.
+The codebase can be found [here](https://github.com/mitch104/twitter-clone). Overall, I was impressed by Cursor, though it wasn't without its hiccups and occasional rabbit holes. I spent around 10 hours on the project, what could have taken me 50/60 hours manually. Interestingly, while both tools used the same underlying model (Claude 3.7), Cursor seemed to make fewer mistakes. I would need to use both tools more thoroughly on different use cases to fully confirm this.
 
 ## Conclusion
 
 These AI-powered coding assistants are already proving themselves to be great for prototyping and rapid MVP development, where code quality isn't always the top priority. However, working within large-scale production codebases presents a different set of challenges. Left unchecked, these tools could become automated tech debt generators.
 
-Ultimately, it's a trade-off between speed and code quality. Sometimes, opting for faster development is the right choice; other times, it isn’t. As software engineers, we need to ensure our foundational skills don’t fade away, so we can still troubleshoot and build code manually when needed.
+Ultimately, it's a trade-off between speed and code quality. Sometimes, opting for faster development is the right choice; other times, it isn’t. As software engineers, we need to ensure our foundational skills don’t fade away, so we can still troubleshoot and maintain code quality standards.
 
 In the coming months, expect to see best practices evolve for using these tools, hopefully helping to mitigate some of the more glaring mistakes.
 
