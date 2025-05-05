@@ -6,6 +6,8 @@ summary: Creating a Twitter Clone from scratch, first with Copilot Agent and the
 tags: ['Copilot', 'Cursor', 'Python', 'Django', 'HTMX', 'AI', 'LLMs']
 ---
 
+![Cursor vs. Copilot](./images/cursor-vs-copilot.png)
+
 ## Introduction
 
 In early 2025, we saw a surge in popularity of "vibe coding" tools. Platforms like [Cursor](https://www.cursor.com/) and [Windsruf](https://windsurf.com/editor), both based on VSCode, sparked a lot of buzz. These tools go beyond the auto-complete features seen in [Copliot](https://code.visualstudio.com/docs/copilot/overview). They integrate agent-like AIs that can not only auto-complete but plan and implement code changes across multiple files based on simple, natural language instructions. This shift led many developers to adopt Cursor or Windsurf as their primary IDEs. In response, Microsoft released [Copilot agent mode](https://code.visualstudio.com/docs/copilot/chat/chat-agent-mode) on April 3rd, 2025. At that point, I hadn’t spent much time with “vibe coding” tools myself, so I decided to dive in and compare Copilot's agent mode with Cursor by building a Twitter clone from scratch using both tools.
