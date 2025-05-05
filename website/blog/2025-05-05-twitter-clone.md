@@ -32,7 +32,7 @@ Next, I tried the same exercise with Cursor, providing the same initial prompt. 
 
 I decided to spend additional time refining the codebase with Cursor, asking it to add type annotations, logging, mypy, ruff, pre-commit hooks, tests with pytest, and even some Playwright tests. Cursor handled these requests with relative ease.
 
-I also started expanding the feature set—adding Celery and Redis for asynchronous tasks like sending emails when a user's tweet is retweeted, and integrating [HTMX](https://htmx.org/) for interactivity (such as infinite scrolling) instead of relying on vanilla JavaScript. The final result was solid.
+I also started expanding the feature set, adding Celery and Redis for asynchronous tasks like sending emails when a user's tweet is retweeted, and integrating [HTMX](https://htmx.org/) for interactivity (such as infinite scrolling) instead of relying on vanilla JavaScript. The final result was solid.
 
 The codebase can be found [here](https://github.com/mitch104/twitter-clone). Overall, I was impressed by Cursor, though it wasn't without its hiccups and occasional rabbit holes. I spent around 10 hours on the project, what could have taken me 50/60 hours manually. Interestingly, while both tools used the same underlying model (Claude 3.7), Cursor seemed to make fewer mistakes. I would need to use both tools more thoroughly on different use cases to fully confirm this.
 
