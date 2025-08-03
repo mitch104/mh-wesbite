@@ -27,6 +27,23 @@ Two main obstacles emerged:
 
 By installing and configuring a Postgres MCP server in VSCode, Copilot gained access to these tables. This enabled the AI to analyze query performance directly from my local database, solving the first challenge of query measurement.
 
+To configure a Postgres MCP server add the following to `~/.vscode/mcp.json` using your actual database url:
+```json
+{
+    "servers": {
+        "postgres": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-postgres",
+                "postgresql://user:pass@localhost:5432/mydb"
+            ]
+        }
+    }
+}
+```
+Then open the command palette and run "MCP: List servers", then select "postgres", then select "Start server". If the connection to your database is successful the output should say "Discovered 1 tools".
+
 For the second challenge, I used [Playwright](https://playwright.dev/python/) to automate browser interactions. The following script logs into the application and navigates to a specified page, allowing Copilot to trigger queries during the request/response cycle:
 
 ```python
