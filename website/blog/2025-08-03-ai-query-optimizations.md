@@ -81,7 +81,7 @@ The following prompt can then be used to start the process in Copilot:
 
 > I am attempting to perform Django query optimizations across my application. When I ask you to optimize queries on the url `/abc/` you should call the following script: `python3 request_page.py /abc/`
 
-> If the script runs successfully please use the Postgres MCP server to query django-silk tables to measure the queries for this url. You should identify if there are any N+1 queries, this is usually identified by many duplicate queries. The 'SQLQuery' table has a field 'traceback' which will give you the code which executed the SQL query, use this to find where in the code query optimizations can be made. For now I am mostly focusing of fixing low hanging fruit queries, for example those that can be fixed with `select_related`/`prefetch_related`.
+> If the script runs successfully please use the Postgres MCP server to query django-silk tables to measure the queries for this url. You should identify if there are any N+1 queries, this is usually identified by many duplicate queries. The 'SQLQuery' table has a field 'traceback' which will give you the code which executed the SQL query, use this to find where in the code query optimizations can be made. For now I am mostly focusing on fixing very inefficient queries, for example those that can be fixed with `select_related`/`prefetch_related`.
 
 > You should attempt to fix the code, then request the url again, then measure the queries again. If your code changes has reduced the number of queries keep the change, if not rollback the change and try a different approach.
 
